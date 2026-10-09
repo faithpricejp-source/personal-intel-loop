@@ -2,12 +2,18 @@ from __future__ import annotations
 
 import os
 import tempfile
+import time
 
 # 包初始化时就按 PIL_HOME 解析数据目录, 所以必须在导入 personal_intel_loop 之前设好:
 # 测试的缺省路径(运行记录、缓存、staging)一律落到临时目录, 不碰真实的 Application Support。
 os.environ["PIL_HOME"] = tempfile.mkdtemp(prefix="pil_test_home_")
 for _name in ("PIL_DATA_DIR", "PIL_DB_PATH", "PIL_STAGING_DIR", "PIL_VAULT_DIR", "PIL_CONFIG_DIR"):
     os.environ.pop(_name, None)
+# LOCAL_TZ 在包导入时取「本机时区」; 一批用例按 JST 写期望(作者机器在东京)。
+# CI(ubuntu, UTC)与其他时区的机器上要先钉成东京, 否则这些用例差一天。
+os.environ["TZ"] = "Asia/Tokyo"
+if hasattr(time, "tzset"):  # Windows 没有 tzset
+    time.tzset()
 
 from datetime import datetime, timezone
 

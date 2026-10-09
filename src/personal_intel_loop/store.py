@@ -256,12 +256,12 @@ def fts_match_query(query: str) -> str:
             if len(run) == 1:
                 parts.append(f'"{run[0]}"*')
             else:
-                parts.extend(f'"{''.join(run[index: index + 2])}"' for index in range(len(run) - 1))
+                parts.extend(f'"{"".join(run[index: index + 2])}"' for index in range(len(run) - 1))
             run.clear()
 
     def _flush_word() -> None:
         if word:
-            parts.append(f'"{''.join(word)}"')
+            parts.append(f'"{"".join(word)}"')
             word.clear()
 
     for char in str(query or ""):
