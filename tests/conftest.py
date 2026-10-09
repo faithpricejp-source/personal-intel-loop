@@ -9,7 +9,7 @@ import time
 os.environ["PIL_HOME"] = tempfile.mkdtemp(prefix="pil_test_home_")
 for _name in ("PIL_DATA_DIR", "PIL_DB_PATH", "PIL_STAGING_DIR", "PIL_VAULT_DIR", "PIL_CONFIG_DIR"):
     os.environ.pop(_name, None)
-# LOCAL_TZ 在包导入时取「本机时区」; 一批用例按 JST 写期望(作者机器在东京)。
+# LOCAL_TZ 在包导入时取「本机时区」; 一批用例按 JST 写期望。
 # CI(ubuntu, UTC)与其他时区的机器上要先钉成东京, 否则这些用例差一天。
 os.environ["TZ"] = "Asia/Tokyo"
 if hasattr(time, "tzset"):  # Windows 没有 tzset
