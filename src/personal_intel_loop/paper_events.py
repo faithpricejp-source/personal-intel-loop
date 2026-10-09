@@ -1,7 +1,7 @@
 """行为事件接收(契约第 4 节 POST /api/paper/events)。
 
-前端攒批发来 {"session_id", "events": [Event…]}, sendBeacon 会用 text/plain,
-web 层一律按 JSON 解析(与 Content-Type 无关)。逐条校验: kind 必须在契约事件表内
+前端攒批发来 {"session_id", "events": [Event…]}, 收尾的 sendBeacon 也用 application/json
+(web 层跨站防护只收 JSON, 2026-10-09 起)。逐条校验: kind 必须在契约事件表内
 (未知 kind 丢弃并计数), ms 为非负整数或 null, ts 必须是可解析的 ISO 8601。
 合法事件一个事务写入; 返回 {"ok", "stored", "dropped"}。
 """

@@ -1,4 +1,4 @@
-"""行为事件接收: store_events 校验与入库 + POST /api/paper/events 路由(text/plain / 未知 kind 丢弃 / 超 500 拒绝)。"""
+"""行为事件接收: store_events 校验与入库 + POST /api/paper/events 路由(JSON beacon 入库 / text/plain 被跨站防护拒 / 未知 kind 丢弃 / 超 500 拒绝)。"""
 from __future__ import annotations
 
 import http.client
@@ -112,22 +112,35 @@ def _post_raw(client, path, body: bytes, content_type: str):
     return response.status, response.read()
 
 
-def test_route_accepts_text_plain_sendbeacon(client):
-    http_client, db = client
-    body = json.dumps({"session_id": "beacon-1", "events": [{"ts": TS, "kind": "session_end", "ms": 120000, "meta": {}}]}, ensure_ascii=False).encode("utf-8")
-    status, raw = _post_raw(http_client, "/api/paper/events", body, "text/plain")
-    assert status == 200
-    assert json.loads(raw.decode("utf-8")) == {"ok": True, "stored": 1, "dropped": 0}
+def _ui_event_count(db) -> int:
     check = sqlite3.connect(db)
     try:
-        assert check.execute("SELECT COUNT(*) FROM ui_events").fetchone()[0] == 1
+        return check.execute("SELECT COUNT(*) FROM ui_events").fetchone()[0]
     finally:
         check.close()
 
 
+def test_route_accepts_json_sendbeacon(client):
+    http_client, db = client
+    body = json.dumps({"session_id": "beacon-1", "events": [{"ts": TS, "kind": "session_end", "ms": 120000, "meta": {}}]}, ensure_ascii=False).encode("utf-8")
+    status, raw = _post_raw(http_client, "/api/paper/events", body, "application/json")
+    assert status == 200
+    assert json.loads(raw.decode("utf-8")) == {"ok": True, "stored": 1, "dropped": 0}
+    assert _ui_event_count(db) == 1
+
+
+def test_route_refuses_text_plain_beacon(client):
+    """2026-10-09 起 text/plain 是跨站「简单请求」的形状, 一律 403, 不入库。"""
+    http_client, db = client
+    body = json.dumps({"session_id": "beacon-1", "events": [{"ts": TS, "kind": "session_end", "ms": 120000, "meta": {}}]}, ensure_ascii=False).encode("utf-8")
+    status, _raw = _post_raw(http_client, "/api/paper/events", body, "text/plain")
+    assert status == 403
+    assert _ui_event_count(db) == 0
+
+
 def test_route_rejects_bad_json_and_over_500(client):
     http_client, _db = client
-    status, raw = _post_raw(http_client, "/api/paper/events", b"{not json", "text/plain")
+    status, raw = _post_raw(http_client, "/api/paper/events", b"{not json", "application/json")
     assert status == 400 and b"error" in raw
     too_many = json.dumps({"session_id": "s", "events": [{"ts": TS, "kind": "focus", "ms": None} for _ in range(501)]}).encode("utf-8")
     status, raw = _post_raw(http_client, "/api/paper/events", too_many, "application/json")

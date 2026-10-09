@@ -396,8 +396,31 @@ class _Handler(BaseHTTPRequestHandler):
         raw = json.dumps(value, ensure_ascii=False).encode("utf-8"); self.send_response(status); self.send_header("Content-Type", "application/json; charset=utf-8"); self.send_header("Content-Length", str(len(raw))); self.end_headers(); self.wfile.write(raw)
     def _html(self, value: str, status: int = 200) -> None:
         raw = value.encode("utf-8"); self.send_response(status); self.send_header("Content-Type", "text/html; charset=utf-8"); self.send_header("Content-Length", str(len(raw))); self.end_headers(); self.wfile.write(raw)
+    def _cross_site(self) -> str | None:
+        """跨站请求防护(2026-10-09, 云端审查发现): 不拦的话, 浏览器里任意网页都能用 text/plain 的
+        「简单请求」POST 到 127.0.0.1 或 tailnet 地址, 替用户记反馈、改画像、往投递箱塞东西。
+        规则: ① 只收 application/json(跨站发 JSON 必须先预检, 本服务不答预检, 浏览器就会拦下);
+        ② 带 Origin 头时, Origin 的主机必须和 Host 头一致; ③ Host 只认本机与 Tailscale 名字(挡 DNS 重绑定)。
+        注意: `serve --host 0.0.0.0` 时用局域网 IP 访问, POST 会因 Host 不在名单内被拒。"""
+        host = (self.headers.get("Host") or "").lower()
+        hostname = host.rsplit(":", 1)[0] if not host.startswith("[") else host
+        if hostname not in ("127.0.0.1", "localhost", "[::1]") and not hostname.endswith(".ts.net"):
+            return f"host not allowed: {host}"
+        ctype = (self.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+        if ctype != "application/json":
+            return "content-type must be application/json"
+        origin = self.headers.get("Origin")
+        if origin and urlparse(origin).netloc.lower() != host:
+            return f"cross-origin request refused: {origin}"
+        return None
     def _payload(self) -> dict:
-        size = int(self.headers.get("Content-Length", "0")); return json.loads(self.rfile.read(size) or b"{}")
+        size = int(self.headers.get("Content-Length") or 0)
+        if size < 0 or size > 50 * 1024 * 1024:
+            raise ValueError("bad Content-Length")
+        data = json.loads(self.rfile.read(size) or b"{}")
+        if not isinstance(data, dict):
+            raise ValueError("request body must be a JSON object")
+        return data
     def do_GET(self) -> None:
         conn = connect_db(DB_PATH); ensure_schema(conn)
         try:
@@ -465,6 +488,9 @@ class _Handler(BaseHTTPRequestHandler):
         except (FileNotFoundError, ValueError, KeyError, json.JSONDecodeError) as exc: self._json(400, {"error": str(exc)})
         finally: conn.close()
     def do_POST(self) -> None:
+        bad = self._cross_site()
+        if bad:
+            self._json(403, {"error": bad}); return
         conn = connect_db(DB_PATH); ensure_schema(conn)
         try:
             payload = self._payload()
@@ -494,7 +520,7 @@ class _Handler(BaseHTTPRequestHandler):
                 except KeyError as exc:
                     self._json(404, {"error": str(exc)}); return
             elif self.path == "/api/paper/events":
-                # sendBeacon 用 text/plain: _payload 不看 Content-Type, 一律按 JSON 解析
+                # 前端收尾的 sendBeacon 也用 application/json Blob(2026-10-09 起, 跨站防护只收 JSON)
                 result = store_events(conn, payload, now_utc=_now_utc())
             elif self.path == "/api/paper/adjustments/revert":
                 try:

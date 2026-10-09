@@ -3025,23 +3025,34 @@ function trackFlush(why) {
   });
 }
 
-/** 页面隐藏/关闭：用 sendBeacon 把剩下的发出去（Content-Type: text/plain） */
+/** 页面隐藏/关闭：用 sendBeacon 把剩下的发出去。
+ *  Content-Type 必须是 application/json：服务端跨站防护（2026-10-09）只收 JSON，text/plain 会被 403 且 beacon 不报错、静默丢事件。
+ *  个别浏览器对非 text/plain 的 Blob 会抛错或返回 false，此时退到 fetch keepalive（同源、同样带 JSON 头）。 */
 function trackBeacon(why) {
   if (!trackQueue.length) return;
   if (MOCK) { trackFlush(why || 'beacon'); return; }
   var events = trackQueue.splice(0, trackQueue.length);
   var body = JSON.stringify({ session_id: trackSessionId, events: events });
-  var ok = false;
-  try {
-    if (navigator && navigator.sendBeacon) {
-      ok = navigator.sendBeacon(TRACK_URL, new Blob([body], { type: 'text/plain' }));
-    }
-  } catch (e) { ok = false; }
-  if (!ok) {
+  var requeue = function () {
     var back = events.concat(trackQueue);
     if (back.length > TRACK_QUEUE_MAX) back = back.slice(back.length - TRACK_QUEUE_MAX);
     trackQueue = back;
+  };
+  var ok = false;
+  try {
+    if (navigator && navigator.sendBeacon) {
+      ok = navigator.sendBeacon(TRACK_URL, new Blob([body], { type: 'application/json' }));
+    }
+  } catch (e) { ok = false; }
+  if (ok) return;
+  if (typeof fetch === 'function') {
+    try {
+      fetch(TRACK_URL, { method: 'POST', keepalive: true, headers: { 'Content-Type': 'application/json' }, body: body })
+        .then(function (res) { if (!res.ok) requeue(); }, requeue);
+      return;
+    } catch (e) { /* 落到下面重排队 */ }
   }
+  requeue();
 }
 
 /** 隐藏或关闭：结算 → 收尾 → 走 beacon */

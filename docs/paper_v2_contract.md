@@ -103,7 +103,7 @@
 App 自动记录「怎么读」，作为推荐的主要反馈来源；显式按钮是辅助。数据只存本机库。
 
 ### 前端上报 `POST /api/paper/events`
-请求体 `{"session_id": "<页面加载时生成的随机串>", "events": [Event…]}`，返回 `{"ok": true, "stored": N}`。前端攒批：每 10 秒或攒满 50 条发一次；页面隐藏/关闭时用 `navigator.sendBeacon` 发剩余的（Content-Type 用 `text/plain`，后端按 JSON 解析）。
+请求体 `{"session_id": "<页面加载时生成的随机串>", "events": [Event…]}`，返回 `{"ok": true, "stored": N}`。前端攒批：每 10 秒或攒满 50 条发一次；页面隐藏/关闭时用 `navigator.sendBeacon` 发剩余的（Blob 类型 `application/json`；浏览器不收这种 Blob 时退到 `fetch` keepalive）。2026-10-09 起所有 POST 过跨站防护：只收 `application/json`、Host 为本机或 `*.ts.net`、带 Origin 时须同源，`text/plain` 一律 403。
 ```json
 {"ts": "2026-10-04T08:01:02.345+09:00", "kind": "<见下表>", "item_id": "…或 null", "edition_date": "2026-10-04", "ms": 1234, "meta": {}}
 ```

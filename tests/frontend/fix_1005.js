@@ -171,7 +171,7 @@ function bootSandbox() {
     location: { search: '', hash: '#/', reload() {} },
     history: { scrollRestoration: 'auto', pushState() {}, replaceState() {} },
     navigator: { sendBeacon(url, blob) { beaconCalls.push({ url, blob }); return true; } },
-    Blob: function (parts) { this.parts = parts; },
+    Blob: function (parts, opts) { this.parts = parts; this.type = (opts && opts.type) || ''; },
     document,
     IntersectionObserver: FakeIntersectionObserver,
     fetch: (url, opts) => new Promise((resolve, reject) => { fetchQueue.push({ url: String(url), opts, resolve, reject, done: false }); }),
@@ -477,6 +477,35 @@ const CASES = [
       await ctx.tick();
       if (sb.dom.view.querySelectorAll('.err-page').length !== 0) throw new Error('重试成功后错误提示条没移除');
       if (sb.state.editions.length !== 1) throw new Error('重试成功但版面没铺出来');
+    },
+  },
+  {
+    id: 'beacon_json_blob', desc: '跨站防护（10-09）：收尾 beacon 的 Blob 必须是 application/json，text/plain 会被服务端 403 静默丢',
+    async run(ctx) {
+      const sb = ctx.sb;
+      sb.trackQueue.push({ ts: '2026-10-09T00:00:00Z', kind: 'focus', ms: null });
+      sb.trackBeacon('test');
+      const calls = ctx.h.beaconCalls;
+      if (calls.length !== 1) throw new Error('应发 1 次 beacon，实际 ' + calls.length);
+      if (calls[0].blob.type !== 'application/json') throw new Error('beacon Blob 类型是 ' + calls[0].blob.type);
+      if (sb.trackQueue.length !== 0) throw new Error('beacon 成功后队列没清空');
+    },
+  },
+  {
+    id: 'beacon_json_fetch_fallback', desc: '跨站防护（10-09）：sendBeacon 不收 JSON Blob（返回 false）时退到 fetch keepalive，带 JSON 头；失败重排队',
+    async run(ctx) {
+      const sb = ctx.sb;
+      sb.navigator.sendBeacon = function () { return false; };
+      sb.trackQueue.push({ ts: '2026-10-09T00:00:00Z', kind: 'focus', ms: null });
+      sb.trackBeacon('test');
+      const f = ctx.h.fetchQueue.filter((e) => e.url.indexOf('/api/paper/events') >= 0);
+      if (f.length !== 1) throw new Error('应退到 1 次 fetch，实际 ' + f.length);
+      const o = f[0].opts || {};
+      if (o.method !== 'POST' || o.keepalive !== true) throw new Error('fetch 没带 POST + keepalive');
+      if (!o.headers || o.headers['Content-Type'] !== 'application/json') throw new Error('fetch 没带 application/json 头');
+      ctx.h.failFetch('/api/paper/events', 403, 'content-type must be application/json');
+      await ctx.tick();
+      if (sb.trackQueue.length !== 1) throw new Error('fetch 失败后事件没重排队，队列长 ' + sb.trackQueue.length);
     },
   },
 ];
