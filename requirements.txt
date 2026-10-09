@@ -1,0 +1,10 @@
+# 核心依赖（跑测试与基本采集/出版）
+pydantic>=2.6,<3
+feedparser>=6,<7
+requests>=2.32,<3
+PyYAML>=6,<7
+numpy>=1.26,<3
+qdrant-client>=1.12,<2
+# 测试
+pytest>=8,<9
+cryptography>=42

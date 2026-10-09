@@ -1,0 +1,965 @@
+{
+  "generated_at": "2026-10-05T01:03:00",
+  "city": "nyc",
+  "city_name_zh": "纽约",
+  "city_name_en": "New York City",
+  "source": {
+    "portal": "https://data.cityofnewyork.us/City-Government/NYPD-Complaint-Data-Current-Year-To-Date/5uac-w243",
+    "api_endpoint": "https://data.cityofnewyork.us/resource/5uac-w243.json",
+    "dataset_id": "5uac-w243",
+    "dataset_name": "NYPD Complaint Data Current (Year To Date)",
+    "publisher": "NYPD / NYC Open Data",
+    "group_key": "addr_pct_cd",
+    "precinct_field": "addr_pct_cd",
+    "offense_field": "ofns_desc",
+    "date_field": "cmplnt_fr_dt",
+    "time_field": "cmplnt_fr_tm",
+    "coord_fields": "latitude + longitude",
+    "band_method": "text-compare 'HH:MM:SS'",
+    "auxiliary": null
+  },
+  "window": {
+    "start": "2026-04-02",
+    "end": "2026-06-30",
+    "days": 90,
+    "right_endpoint_source": "数据集 max(cmplnt_fr_dt), 非运行当天",
+    "staleness_days": 97
+  },
+  "hotspots": [
+    {
+      "precinct": "75",
+      "precinct_name": "",
+      "precinct_name_source": "",
+      "boro": "BROOKLYN",
+      "district_code": null,
+      "hour_band": "18-24",
+      "hour_band_zh": "18-24 夜间",
+      "count": 841,
+      "share_of_window": 0.0102,
+      "center_lat": 40.6695,
+      "center_lon": -73.8815,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 200
+        },
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 188
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 108
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 200
+        },
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 188
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 108
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 96
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 54
+        },
+        {
+          "offense": "GRAND LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "盗窃机动车",
+          "count": 47
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 41
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 35
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 30
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 12
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 12
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 9
+        },
+        {
+          "offense": "PETIT LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "扒窃机动车",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "precinct": "75",
+      "precinct_name": "",
+      "precinct_name_source": "",
+      "boro": "BROOKLYN",
+      "district_code": null,
+      "hour_band": "12-18",
+      "hour_band_zh": "12-18 下午",
+      "count": 810,
+      "share_of_window": 0.0099,
+      "center_lat": 40.6675,
+      "center_lon": -73.8825,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 234
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 154
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 83
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 234
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 154
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 83
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 74
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 68
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 60
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 46
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 25
+        },
+        {
+          "offense": "GRAND LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "盗窃机动车",
+          "count": 24
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 16
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 10
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 10
+        },
+        {
+          "offense": "PETIT LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "扒窃机动车",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "precinct": "14",
+      "precinct_name": "Midtown South",
+      "precinct_name_source": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/midtown-south-precinct.page",
+      "boro": "MANHATTAN",
+      "district_code": null,
+      "hour_band": "12-18",
+      "hour_band_zh": "12-18 下午",
+      "count": 806,
+      "share_of_window": 0.0098,
+      "center_lat": 40.7515,
+      "center_lon": -73.9895,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 344
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 168
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 76
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 344
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 168
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 76
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 70
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 44
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 35
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 25
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 21
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 12
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 10
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "precinct": "40",
+      "precinct_name": "",
+      "precinct_name_source": "",
+      "boro": "BRONX",
+      "district_code": null,
+      "hour_band": "12-18",
+      "hour_band_zh": "12-18 下午",
+      "count": 743,
+      "share_of_window": 0.009,
+      "center_lat": 40.8155,
+      "center_lon": -73.9175,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 161
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 146
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 85
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 161
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 146
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 85
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 79
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 76
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 70
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 41
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 29
+        },
+        {
+          "offense": "GRAND LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "盗窃机动车",
+          "count": 21
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 20
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 12
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "precinct": "14",
+      "precinct_name": "Midtown South",
+      "precinct_name_source": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/midtown-south-precinct.page",
+      "boro": "MANHATTAN",
+      "district_code": null,
+      "hour_band": "18-24",
+      "hour_band_zh": "18-24 夜间",
+      "count": 706,
+      "share_of_window": 0.0086,
+      "center_lat": 40.7525,
+      "center_lon": -73.9895,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 232
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 124
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 91
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 232
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 124
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 91
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 64
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 56
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 54
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 24
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 23
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 19
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 16
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 2
+        },
+        {
+          "offense": "PETIT LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "扒窃机动车",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "precinct": "44",
+      "precinct_name": "",
+      "precinct_name_source": "",
+      "boro": "BRONX",
+      "district_code": null,
+      "hour_band": "12-18",
+      "hour_band_zh": "12-18 下午",
+      "count": 638,
+      "share_of_window": 0.0078,
+      "center_lat": 40.8345,
+      "center_lon": -73.9205,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 156
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 151
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 69
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 156
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 151
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 69
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 57
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 53
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 44
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 34
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 22
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 20
+        },
+        {
+          "offense": "GRAND LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "盗窃机动车",
+          "count": 18
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 10
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "precinct": "18",
+      "precinct_name": "Midtown North",
+      "precinct_name_source": "https://www.nyc.gov/site/nypd/bureaus/patrol/precincts/midtown-north-precinct.page",
+      "boro": "MANHATTAN",
+      "district_code": null,
+      "hour_band": "12-18",
+      "hour_band_zh": "12-18 下午",
+      "count": 635,
+      "share_of_window": 0.0077,
+      "center_lat": 40.7625,
+      "center_lon": -73.9825,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 306
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 144
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 58
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 306
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 144
+        },
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 58
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 36
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 26
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 23
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 12
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 10
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 10
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 8
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "precinct": "40",
+      "precinct_name": "",
+      "precinct_name_source": "",
+      "boro": "BRONX",
+      "district_code": null,
+      "hour_band": "18-24",
+      "hour_band_zh": "18-24 夜间",
+      "count": 634,
+      "share_of_window": 0.0077,
+      "center_lat": 40.8145,
+      "center_lon": -73.9175,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 171
+        },
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 93
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 89
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 171
+        },
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 93
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 89
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 67
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 52
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 44
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 37
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 24
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 23
+        },
+        {
+          "offense": "GRAND LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "盗窃机动车",
+          "count": 13
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 12
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "precinct": "44",
+      "precinct_name": "",
+      "precinct_name_source": "",
+      "boro": "BRONX",
+      "district_code": null,
+      "hour_band": "18-24",
+      "hour_band_zh": "18-24 夜间",
+      "count": 620,
+      "share_of_window": 0.0075,
+      "center_lat": 40.8345,
+      "center_lon": -73.9205,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 162
+        },
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 113
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 83
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 162
+        },
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 113
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 83
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 60
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 45
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 45
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 32
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 23
+        },
+        {
+          "offense": "GRAND LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "盗窃机动车",
+          "count": 19
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 18
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 14
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 5
+        },
+        {
+          "offense": "PETIT LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "扒窃机动车",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "precinct": "47",
+      "precinct_name": "",
+      "precinct_name_source": "",
+      "boro": "BRONX",
+      "district_code": null,
+      "hour_band": "12-18",
+      "hour_band_zh": "12-18 下午",
+      "count": 610,
+      "share_of_window": 0.0074,
+      "center_lat": 40.8835,
+      "center_lon": -73.8565,
+      "center_method": "median of gridded coords (grid=0.001°≈85m)",
+      "top3_offenses": [
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 150
+        },
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 148
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 87
+        }
+      ],
+      "offense_breakdown": [
+        {
+          "offense": "ASSAULT 3 & RELATED OFFENSES",
+          "offense_zh": "轻伤/袭击3级",
+          "count": 150
+        },
+        {
+          "offense": "PETIT LARCENY",
+          "offense_zh": "扒窃(小额定物)",
+          "count": 148
+        },
+        {
+          "offense": "CRIMINAL MISCHIEF & RELATED OF",
+          "offense_zh": "破坏公物/恶意损毁",
+          "count": 87
+        },
+        {
+          "offense": "FELONY ASSAULT",
+          "offense_zh": "重罪伤害",
+          "count": 66
+        },
+        {
+          "offense": "GRAND LARCENY",
+          "offense_zh": "重窃(大额定物)",
+          "count": 50
+        },
+        {
+          "offense": "ROBBERY",
+          "offense_zh": "重罪抢劫",
+          "count": 36
+        },
+        {
+          "offense": "OTHER OFFENSES RELATED TO THEFT",
+          "offense_zh": "其他盗窃类",
+          "count": 32
+        },
+        {
+          "offense": "GRAND LARCENY OF MOTOR VEHICLE",
+          "offense_zh": "盗窃机动车",
+          "count": 23
+        },
+        {
+          "offense": "BURGLARY",
+          "offense_zh": "入室盗窃",
+          "count": 8
+        },
+        {
+          "offense": "DANGEROUS WEAPONS",
+          "offense_zh": "危险武器",
+          "count": 6
+        },
+        {
+          "offense": "CRIMINAL TRESPASS",
+          "offense_zh": "非法侵入",
+          "count": 3
+        },
+        {
+          "offense": "OFFENSES AGAINST THE PERSON",
+          "offense_zh": "其他人身类",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

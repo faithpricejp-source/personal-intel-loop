@@ -1,0 +1,23 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+data/
+logs/
+.DS_Store
+# 真实配置（仓库只放 *.example.*）
+config.toml
+config/local/
+.env
+.env.*
+macapp/build/
+
+# 个人配置（只提交示例）
+config/disaster_alerts.json
+config/leisure_authors.txt
+config/podcast_subscriptions_accepted.json
+config/source_adapters_todo.json
+config/reading_profile.md
+config/blindspots.md

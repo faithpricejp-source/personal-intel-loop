@@ -1,0 +1,45 @@
+{
+ "_note": "2026-10-05 playwright 打开 https://www.thepaper.cn/newsDetail_forward_34122288(公益湃 图文条目 contType=0)抓到的真实 __NEXT_DATA__ 截取, 正文 content 完整保留。与 thepaper_warm_detail_sample.json(视频条目 contType=9, content 只有 <video>)配对, 两条路径都有阳性样本。",
+ "url": "https://www.thepaper.cn/newsDetail_forward_34122288",
+ "pageProps_keys": [
+  "contId",
+  "detailData"
+ ],
+ "contentDetail": {
+  "contId": 34122288,
+  "name": "共筑AI向善之路——CAPS举办《亚洲人工智能向善投资观察》交流会",
+  "summary": "2026 年 9 月 17 日，亚洲公益事业研究中心（Centre for Asian Philanthropy and Society，简称 CAPS）在上海",
+  "content": "<p>2026 年 9 月 17 日，亚洲公益事业研究中心（Centre for Asian Philanthropy and Society，简称 CAPS）在上海举办第三期“亚洲洞察思享会”，以“共筑 AI 向善之路”为主题，围绕这些问题展开交流。活动基于 CAPS 最新发布的《亚洲人工智能向善投资观察》，结合中国本土企业、基金会及公益组织的经验，探讨如何支持 AI 项目从技术落地走向持续运营。</p><img alt=\"\" style=\"max-width: 600px; height: auto; display: block; margin: 0 auto;\" class=\"ait_item_box img_default\" media-id=\"4211438\" data-src=\"https://imgpai.thepaper.cn/newpai/image/1790043761206_12jBxe_1790043762642.png\" src=\"https://imgpai.thepaper.cn/newpai/image/1790043761206_12jBxe_1790043762642.png\" width=\"830\" height=\"553\" data-width=\"830\" data-height=\"553\" loading=\"lazy\" data-id=\"479628367\" data-imageid=\"479628367\"><p><strong>报告分享：技术之外，还需要哪些投入？</strong></p><p>9 月 2 日，CAPS 全球发布《亚洲人工智能向善投资观察》。报告梳理了亚太地区 220 项 AI 向善实践，并对 10 个经济体的 42 家机构进行深度访谈，考察 AI 工具能否被采用、有效使用并持续发挥作用。</p><p>报告以“有车无路”概括研究中的一个突出发现：资金倾向于投入看得见的工具和应用开发，而支撑工具落地的人员能力、持续资金、共享基础设施和治理机制，仍缺乏足够投入。</p><img alt=\"\" style=\"max-width: 600px; height: auto; display: block; margin: 0 auto;\" class=\"ait_item_box img_default\" media-id=\"4211437\" data-src=\"https://imgpai.thepaper.cn/newpai/image/1790043761416_k4fRS2_1790043762630.png\" src=\"https://imgpai.thepaper.cn/newpai/image/1790043761416_k4fRS2_1790043762630.png\" width=\"830\" height=\"1100\" data-width=\"830\" data-height=\"1100\" loading=\"lazy\" data-id=\"479628366\" data-imageid=\"479628366\"><p>CAPS 大中华区研究与咨询总监、上海代表处首席代表江安琪结合亚洲案例，进一步说明这些支撑条件如何影响项目成效：印度 Educate Girls 的应用依托长期积累的数据和一线判断；马来西亚珊瑚礁普查为人员培训投入资源；印度 Rocket Learning 则面临服务规模扩大、运营成本随之增长的资金难题。这些经验提示，投资 AI 技术与工具的同时，也需要为机构用好 AI、持续提供服务做好安排。</p><img alt=\"\" style=\"max-width: 600px; height: auto; display: block; margin: 0 auto;\" class=\"ait_item_box img_default\" media-id=\"4211439\" data-src=\"https://imgpai.thepaper.cn/newpai/image/1790043761557_KtHYx7_1790043762663.png\" src=\"https://imgpai.thepaper.cn/newpai/image/1790043761557_KtHYx7_1790043762663.png\" width=\"830\" height=\"553\" data-width=\"830\" data-height=\"553\" loading=\"lazy\" data-id=\"479628368\" data-imageid=\"479628368\"><p>但在投入之前，还应先判断是否需要 AI。江安琪引用 EkStep 基金会联合创始人兼首席执行官尚卡尔·马鲁瓦达（Shankar Maruwada）的提醒：“我最担心的是本末倒置：什么都先上 AI。结果 AI 成了锤子，看什么都像钉子。”她强调，AI 向善应从真实的社会需求出发，让技术服务于要解决的问题。</p><p><strong>教育实践：科技有温度，教育更公平</strong></p><p>上海真爱梦想公益基金会技术负责人夏腾飞将讨论带入教育场景。随着 AI 能够直接参与思考和任务完成，教育中的分工正在发生变化，如何使用 AI 才能真正促进学习，成为教育者需要面对的问题。</p><p>夏腾飞指出，AI 对学习的影响取决于工具设计和使用方式。学生借助 AI 完成任务时，如何保留独立思考、判断和从错误中学习的过程，需要得到重视。</p><img alt=\"\" style=\"max-width: 600px; height: auto; display: block; margin: 0 auto;\" class=\"ait_item_box img_default\" media-id=\"4211435\" data-src=\"https://imgpai.thepaper.cn/newpai/image/1790043761689_CzF8ES_1790043762595.png\" src=\"https://imgpai.thepaper.cn/newpai/image/1790043761689_CzF8ES_1790043762595.png\" width=\"830\" height=\"553\" data-width=\"830\" data-height=\"553\" loading=\"lazy\" data-id=\"479628365\" data-imageid=\"479628365\"><p>与此同时，乡村学校还面临设备短缺、网络不稳、AI 学习内容与当地教育环境脱节等困难，教师也需要系统培训和持续支持。技术能否改善教育机会，取决于这些条件能否跟上。</p><p>针对这些挑战，真爱梦想于 2025 年 6 月在教育部教师工作司指导下启动 “真爱行” 教师人工智能素养提升专项行动，计划五年覆盖中西部 22 个省（区、市）的 5 万名中小学教师。该行动将 AI 素养融入求真、有爱、追梦三大课程模块，推动 “梦想中心” 向 “AI 梦想网络” 发展，并通过教师和校长成长体系，设计从数字化启蒙到智慧教育生态共建的进阶路径。这项实践也回应了报告关于人员能力的发现：AI 进入课堂，需要教师培训、校长支持和日常教学安排共同跟进。</p><p>夏腾飞分享道：“爱是底数，AI 是指数。教育的底数，不是知识灌输、技能堆叠，而是价值观、判断力、行动力和爱的能力。”在真爱梦想看来，AI 应服务于这些教育目标，让优质资源跨越地域限制，支持更多孩子的学习与成长。</p><p><strong>实践者对话：从“有车无路”到“共修一路”</strong></p><p>在圆桌环节，蚂蚁公益基金会女性公益主任卜家珺、科大讯飞区域总监张鹏飞、澎湃新闻公益事业部负责人刘霁，结合各自经验，讨论 AI 公益项目落地后的运营难题。</p><img alt=\"\" style=\"max-width: 600px; height: auto; display: block; margin: 0 auto;\" class=\"ait_item_box img_default\" media-id=\"4211434\" data-src=\"https://imgpai.thepaper.cn/newpai/image/1790043761824_i64CjD_1790043762626.png\" src=\"https://imgpai.thepaper.cn/newpai/image/1790043761824_i64CjD_1790043762626.png\" width=\"830\" height=\"553\" data-width=\"830\" data-height=\"553\" loading=\"lazy\" data-id=\"479628362\" data-imageid=\"479628362\"><p>卜家珺介绍，蚂蚁公益基金会 “数字木兰” 女性支持计划下的 “AI 豆计划” 已在 18 个县域建立数字就业中心，帮助超过 1 万名乡村女性成为人工智能训练师，在家门口就业增收。项目发展过程中，需面对在地孵化运营团队、培养本地数字人才队伍等 “打基础” 的重要工作。她认为，这需要地方政府、公益基金会与在地运营企业形成更稳定的协作机制。</p><img alt=\"\" style=\"max-width: 600px; height: auto; display: block; margin: 0 auto;\" class=\"ait_item_box img_default\" media-id=\"4211432\" data-src=\"https://imgpai.thepaper.cn/newpai/image/1790043761961_A7GiD7_1790043762590.png\" src=\"https://imgpai.thepaper.cn/newpai/image/1790043761961_A7GiD7_1790043762590.png\" width=\"830\" height=\"553\" data-width=\"830\" data-height=\"553\" loading=\"lazy\" data-id=\"479628364\" data-imageid=\"479628364\"><p>张鹏飞指出，技术就绪之后，组织能否承接往往容易被低估。工具交付后，使用方能否真正用起来，需要在地组织的能力建设和多方协作。他也分享，科大讯飞此前在 AI 教育公益中最大的困难是评估公益效果，因此近年来积极与真爱梦想等专业教育公益组织合作，开展项目追踪和效果评估。</p><img alt=\"\" style=\"max-width: 600px; height: auto; display: block; margin: 0 auto;\" class=\"ait_item_box img_default\" media-id=\"4211436\" data-src=\"https://imgpai.thepaper.cn/newpai/image/1790043762109_pJzwyN_1790043762622.png\" src=\"https://imgpai.thepaper.cn/newpai/image/1790043762109_pJzwyN_1790043762622.png\" width=\"830\" height=\"553\" data-width=\"830\" data-height=\"553\" loading=\"lazy\" data-id=\"479628369\" data-imageid=\"479628369\"><p>刘霁从媒体长期观察出发指出，项目方往往更愿意介绍做了什么，较少谈及如何维持运营。媒体报道也容易聚焦技术亮点，对基础设施共建、治理规则和资金机制关注不足，而这些恰恰关系着项目能否持续。</p><img alt=\"\" style=\"max-width: 600px; height: auto; display: block; margin: 0 auto;\" class=\"ait_item_box img_default\" media-id=\"4211433\" data-src=\"https://imgpai.thepaper.cn/newpai/image/1790043762227_6j4WAh_1790043762558.png\" src=\"https://imgpai.thepaper.cn/newpai/image/1790043762227_6j4WAh_1790043762558.png\" width=\"830\" height=\"553\" data-width=\"830\" data-height=\"553\" loading=\"lazy\" data-id=\"479628363\" data-imageid=\"479628363\"><p>讨论进一步延伸到各方如何分担这些工作：哪些经验可以被其他机构复用，哪些支持需要行业或公共部门提供？嘉宾们期待在资金、基础设施、治理和组织能力等方面形成更有效的协作，支持 AI 公益项目长期发展。</p><p>从报告案例到本土实践，本次交流反复触及的，是工具上线之后仍需持续投入的工作：培训使用者、维护服务、承担成本、追踪效果。这些安排越早进入项目设计，参与各方就越能明确自身责任，为后续运营做好准备。</p><p>CAPS&nbsp;将继续通过研究、交流平台和行业协作，推动&nbsp;AI&nbsp;向善议题在中国本土的讨论与实践，与社会组织、资助方和技术伙伴共同探索从试点走向持续运营的现实路径。</p>",
+  "author": " ",
+  "source": null,
+  "pubTime": "2026-09-22 10:59",
+  "publishTime": 1790045984634,
+  "contType": 0,
+  "trackAuthor": " ",
+  "nodeInfo": {
+   "nodeId": 68750,
+   "name": "公益湃",
+   "desc": "记录公益发展，共建责任生态。",
+   "pic": "https://image.thepaper.cn/depository/image/14/311/484.jpg",
+   "nodeType": 0,
+   "channelType": 0,
+   "forwordType": 22,
+   "forwardType": "1",
+   "parentId": 25388,
+   "bigDataCode": "gyp",
+   "isOrder": "0",
+   "shareName": "公益湃",
+   "nickName": "",
+   "publishTime": 1668726906000,
+   "mobForwardType": "22",
+   "summarize": "记录中国公益慈善事业发展，助力构建专业、科学、理性的社会公益生态。",
+   "showSpecialBanner": false,
+   "showSpecialTopDesc": false,
+   "topBarTypeCustomColor": false,
+   "showVideoBottomRightBtn": false,
+   "isHideNode": 0
+  },
+  "pic": "https://imgpai.thepaper.cn/newpai/image/1790043786021_d6XTcR_1790043786274.png",
+  "tags": "人工智能,公益"
+ }
+}

@@ -1,0 +1,8 @@
+# 可选依赖：缺了相应功能降级或跳过（见 README「依赖」）
+sentence-transformers>=5,<6   # 本地嵌入（v2 排序、盲区版、笔记库检索）
+trafilatura                   # 全文抽取
+playwright>=1.40              # html_columns 的 browser 栏目
+curl_cffi                     # YouTube @handle 解析
+youtube-transcript-api        # YouTube 字幕
+yt-dlp                        # 无字幕视频转写（配合 scripts/youtube_asr.py）
+browser-cookie3               # 从本机浏览器读登录态（部分登录探针）

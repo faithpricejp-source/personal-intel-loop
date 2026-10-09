@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<opendata dataType="N" lastModified="2026/10/04 23:15:46" mailCount="21" odType="02">
+    <xmlAllUrl>https://www.ezairyu.mofa.go.jp/opendata/area/newarrivalA.xml</xmlAllUrl>
+    <xmlNormalUrl>https://www.ezairyu.mofa.go.jp/opendata/area/newarrival.xml</xmlNormalUrl>
+    <xmlLightUrl>https://www.ezairyu.mofa.go.jp/opendata/area/newarrivalL.xml</xmlLightUrl>
+    <mail><keyCd>168109</keyCd>
+        <infoType>R10</infoType>
+        <infoName>領事メール(一般)</infoName>
+        <infoNameLong>領事メール(一般)</infoNameLong>
+        <leaveDate>2026/10/04 14:36:00</leaveDate>
+        <area>
+            <cd>10</cd>
+            <name>アジア</name>
+        </area>
+        <country areaCd="10">
+            <cd>0977</cd>
+            <name>ネパール</name>
+        </country>
+        <title>ラトナパーク周辺での大規模集会に伴う混雑について</title>
+        <lead>本日14時から、ラトナパークのオープンステージにてネパールコングレスの党大会が開催される模様です。 多数の参加者が見込まれ、12時頃からラトナパーク周辺で渋滞の発生、交通規制が行われる可能性があるとのことです。 多数の人出が予想されており、会場周辺では混乱や予期せぬトラブルが発生する可能性もあるため、なるべく近づかないようにしてください。 ※ この情報は、お知り合いの方や旅行者にもお知らせください。 ※ このメールは、在留届にて届けられ…</lead>
+        <infoUrl>https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168109</infoUrl>
+        <xmlAllUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/168109A.xml</xmlAllUrl>
+        <xmlNormalUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/168109.xml</xmlNormalUrl>
+        <xmlLightUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/168109L.xml</xmlLightUrl>
+        <koukanCd>617A</koukanCd>
+        <koukanName>在ネパール日本国大使館</koukanName>
+    </mail>
+    <mail><keyCd>168108</keyCd>
+        <infoType>R10</infoType>
+        <infoName>領事メール(一般)</infoName>
+        <infoNameLong>領事メール(一般)</infoNameLong>
+        <leaveDate>2026/10/04 12:56:00</leaveDate>
+        <area>
+            <cd>10</cd>
+            <name>アジア</name>
+        </area>
+        <country areaCd="10">
+            <cd>0092</cd>
+            <name>パキスタン</name>
+        </country>
+        <title>カラチ市内における抗議活動に関する注意喚起</title>
+        <lead>１ 本日（１０月４日）午後４時より、パキスタン正義運動（PTI）が、イムラン・カーンの釈放を求めてカラチ市内で抗議活動（集会）を行うと発表しました。 抗議活動の場所は次のとおり ・Malir地区 Malir 15 ・中央地区 Sharah-e-Pakistan Near JDC ・西地区 Banaras Chowk ・東地区 Sohrab Goth Super Highway ・南地区 Empress Market ・Keamari地区…</lead>
+        <mainText> ○当館「安全情報配信用エックス」 https://x.com/CGJapanKRC_SFT ○当館ウェブサイト「安全・医療」 https://www.kr.pk.emb-japan.go.jp/itpr_ja/anzen.html ○外務省海外安全情報ウェブサイト（パキスタン） https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_011.html#ad-image-0 ○緊急時の連絡先 在カラチ日本国総領事館 電話（+92-21）3522-0800 【問い合わせ先】 在カラチ日本国総領事舘 電話：021-3522-0800 メール：japan.consulate.karachi@kr.mofa.go.jp…</mainText>
+        <infoUrl>https://www.anzen.mofa.go.jp/od/ryojiMailDetail.html?keyCd=168108</infoUrl>
+        <xmlAllUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/168108A.xml</xmlAllUrl>
+        <xmlNormalUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/168108.xml</xmlNormalUrl>
+        <xmlLightUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/168108L.xml</xmlLightUrl>
+        <koukanCd>610E</koukanCd>
+        <koukanName>在カラチ日本国総領事館</koukanName>
+    </mail>
+    <mail><keyCd>2026C045</keyCd>
+        <infoType>C30</infoType>
+        <infoName>スポット</infoName>
+        <infoNameLong>海外安全情報(スポット情報)</infoNameLong>
+        <contentInfo>治安情勢 一般犯罪 誘拐 テロ 暴動 事故 一般情報</contentInfo>
+        <leaveDate>2026/09/28 00:00:00</leaveDate>
+        <area>
+            <cd>33</cd>
+            <name>中南米</name>
+        </area>
+        <country areaCd="33">
+            <cd>0591</cd>
+            <name>ボリビア</name>
+        </country>
+        <title>ボリビアにおける緊急事態宣言の延長及び燃料不足等に伴う注意喚起</title>
+        <lead>●6月に発令された緊急事態宣言の延長が議会で承認されました。大規模な道路封鎖を伴う抗議活動は抑止されていますが、突発的な政治の混乱や、それに伴い抗議活動が再開する可能性に注意が必要です。 ●経済不況による深刻な燃料不足が続いており、長距離バスの減便・運休等の交通機関への影響が懸念されます。 ●旅行者・滞在者は、燃料不足等による移動手段、交通機関の不測の停止に備え、十分な余裕（予備日）を設けて日程を組んでください。 ●お困りのことや支援が…</lead>
+        <mainText>【ポイント】 ●6月に発令された緊急事態宣言の延長が議会で承認されました。大規模な道路封鎖を伴う抗議活動は抑止されていますが、突発的な政治の混乱や、それに伴い抗議活動が再開する可能性に注意が必要です。 ●経済不況による深刻な燃料不足が続いており、長距離バスの減便・運休等の交通機関への影響が懸念されます。 ●旅行者・滞在者は、燃料不足等による移動手段、交通機関の不測の停止に備え、十分な余裕（予備日）を設けて日程を組んでください。 ●お困りのことや支援が必要なことがあれば、在ボリビア日本国大使館、在サンタクルス領事事務所又は外務省領事局海外邦人緊急事態課にご連絡ください。 【本文】 １．治安・政治情勢 （１）政府が6月に発令した緊急事態宣言は、9月17日に議会承認を受け、90日間延長されました。 （２）軍や警察が主要幹線道路やインフラの監視・警備を維持しているため、緊急事態宣言以前に見られたような大規模な道路封鎖を伴う抗議活動は抑止されており、幹線道路の通行はおおむね保たれています。 （３）しかし、政局の対立等を契機として、突発的な政治の混乱や局地的な抗議活動が再び起こる可能性は排除できません。今後の情勢の推移には引き続き十分な注意が必要です。 ２．燃料不足に伴う交通機関への影響 （１）経済不況に伴う外貨不足等を背景に、ガソリンおよびディーゼル燃料の不足が常態化しています。 （２）燃料不足により、都市間長距離バスや市内公共交通の減便・運休、遅延が発生する恐れがあります。また、地方の観光地（ウユニ塩湖等）への車両移動や、国内線フライトのスケジュール変更等の影響が出る可能性もあります。 ３．渡航・滞在に当たっての注意事項 （１）余裕を持った旅程の確保 燃料不足による交通機関等の運休や遅延により、予定どおり移動できない事態（国際線への乗り遅れ等）を想定し、旅程に数日の予備日を設けるなど、時間的余裕を持った計画を立ててください。 （２）最新情報の確認 移動前に、旅行代理店や運行会社等を通じて利用交通機関の運行状況等、現地の最新事情を必ず確認してください。 （３）抗議行動や集会への接近回避 政治情勢や燃料不足をめぐる集会・抗議活動等を見かけた場合は、不用意に近づかず、直ちにその場から離れて安全を確保してください。 （４）身分証明書の携行 緊急事態宣言に伴い警察による路上検問（身元確認）が強化されているため、外出時は身分証明書（パスポート等）を携行するようにしてください。 （５）困難発生時の対応 お困りのことや支援が必要なことがあれば、在ボリビア日本国大使館、在サンタクルス領事事務所又は外務省領事局海外邦人緊急事態課にご連絡ください。 在留届（3か月以上の滞在）または「たびレジ」（3か月未満の滞在）へご登録ください。 在留届、「たびレジ」登録について、知人や出張者、旅行者に…</mainText>
+        <infoUrl>https://www.anzen.mofa.go.jp/info/pcspotinfo_2026C045.html</infoUrl>
+        <xmlAllUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/2026C045A.xml</xmlAllUrl>
+        <xmlNormalUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/2026C045.xml</xmlNormalUrl>
+        <xmlLightUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/2026C045L.xml</xmlLightUrl>
+    </mail>
+    <mail><keyCd>2026T090</keyCd>
+        <infoType>T40</infoType>
+        <infoName>危険</infoName>
+        <infoNameLong>海外安全情報(危険情報)</infoNameLong>
+        <contentInfo>治安情勢 一般情報</contentInfo>
+        <leaveDate>2026/09/16 00:00:00</leaveDate>
+        <area>
+            <cd>42</cd>
+            <name>ヨーロッパ</name>
+        </area>
+        <country areaCd="42">
+            <cd>0389</cd>
+            <name>北マケドニア共和国</name>
+        </country>
+        <title>北マケドニアの危険情報【危険レベル解除】</title>
+        <lead>北マケドニアの北部（首都スコピエ除く）、北西部及び西部について、民族間対立（マケドニア系・アルバニア系）に関する情勢の安定化が見られることを踏まえ、現在の危険レベル１から危険情報なしに引き下げます。これにより、北マケドニアに対する危険情報は全て解除されます。…</lead>
+        <subText>【危険レベル】 【北部（スコピエ市を除く）】 クマノボ(Kumanovo)、リプコヴォ（Lipkovo）、アラチノボ（Aracinovo）、チュチェル・サンデヴォ（Cucer Sandevo）、シュトゥデニチャニ（Studenicani）及びソピシュテ（Sopiste） 【北西部】 イェグノフツェ（Jegunovce）、テアルツェ（Tearce）、ジェリノ（Zelino）、テトボ（Tetovo）、ブルベニツァ（Brvenica）、ボゴビ…</subText>
+        <mainText>1 概況 アルバニア系が多数居住する地域において、2001年にアルバニア系武装勢力（「民族解放軍（ＮＬＡ）」）と政府治安部隊との間で武力衝突が発生し、一時は首都スコピエ市近郊まで戦闘が及ぶ事態となりました。同年８月、政府とアルバニア系武装勢力との間でアルバニア系住民の地位改善等を主な内容とする枠組み合意（オフリド合意）が成立した結果、ＮＬＡは武装放棄してアルバニア系政党を設立し、民主的方法でアルバニア系住民の利益を代表する方針に転換しました。それ以来、政権の樹立において、マケドニア系政党とアルバニア系政党が連立を組む慣習が定着する等、双方の民族間の利害対立を民主的手続きにより解決する体制が成り立ちました。 2014年10月（政府庁舎への砲撃事案）や2015年4月（NLAの制服を着用した武装集団が国境警察署を襲撃し一時占拠し、これを受けて治安当局が大規模掃討作戦実施）には民族的分断を背景とする事案発生が見られましたが、以降10年以上にわたり民族間の対立を要因とする武力衝突は発生せず情勢は安定しています。 2 地域別情勢 （1）北マケドニア共和国の北部（首都スコピエ市を除く）、北西部及び西部 【北部（スコピエ市を除く）】 クマノボ(Kumanovo)、リプコヴォ（Lipkovo）、アラチノボ（Aracinovo）、チュチェル・サンデヴォ（Cucer Sandevo）、シュトゥデニチャニ（Studenicani）及びソピシュテ（Sopiste） 【北西部】 イェグノフツェ（Jegunovce）、テアルツェ（Tearce）、ジェリノ（Zelino）、テトボ（Tetovo）、ブルベニツァ（Brvenica）、ボゴビニェ（Bogovinje）、ヴラプチシュテ（Vrapciste） 【西部】 ゴスティバル（Gostivar）、マブロボ・ロシュトゥシェ（Mavrovo and Rostuse）、デバル（Debar）、ツェンタル・ジューパ（Centar Zupa）、ストルガ（Struga）、ベブチャーニ（Vevcani） 危険情報解除《引き下げ》 概況を参照ください。これらの地域の危険情報を解除します。これにより、北マケドニアに対する危険情報は解除されます。 3 滞在に当たっての注意事項 （1） 在留届・「たびレジ」 海外渡航の際には万一に備え、家族や友人、職場等に日程や渡航先での連絡先を伝えておくようにしてください。 北マケドニアに3か月以上滞在する方は、在北マケドニア日本国大使館が緊急時の連絡先を確認できるよう、必ず在留届を提出してください。 3か月未満の旅行や出張などの際には、渡航先の最新安全情報や、緊急時の在北マケドニア日本国大使館からの連絡を受け取ることができるよう、外務省海外安全情報配信サービス「たびレジ」に登録してください。 〇在留届・たびレジ共通リンク htt…</mainText>
+        <infoUrl>https://www.anzen.mofa.go.jp/info/pchazardspecificinfo_2026T090.html</infoUrl>
+        <xmlAllUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/2026T090A.xml</xmlAllUrl>
+        <xmlNormalUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/2026T090.xml</xmlNormalUrl>
+        <xmlLightUrl>https://www.ezairyu.mofa.go.jp/opendata/mail/2026T090L.xml</xmlLightUrl>
+        <riskLevel4>0</riskLevel4>
+        <riskLevel3>0</riskLevel3>
+        <riskLevel2>0</riskLevel2>
+        <riskLevel1>0</riskLevel1>
+        <infectionLevel4>0</infectionLevel4>
+        <infectionLevel3>0</infectionLevel3>
+        <infectionLevel2>0</infectionLevel2>
+        <infectionLevel1>0</infectionLevel1>
+        <mapImageUrl>https://www.anzen.mofa.go.jp/info/map/2026T090_1_Detail.html</mapImageUrl>
+    </mail>
+</opendata>

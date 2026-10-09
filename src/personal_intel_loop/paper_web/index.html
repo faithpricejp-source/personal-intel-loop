@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>今日 · 个人 AI 报纸</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="flash" class="flash" hidden></div>
+<div id="authbar" class="authbar" hidden></div>
+<div id="riskbar" class="riskbar" hidden></div>
+<header id="masthead" class="masthead" hidden>
+  <div class="mast-top">
+    <span class="mast-edition" id="mastEdition"></span>
+    <span class="mast-links">
+      <a class="mast-link" href="#/archive">全部来源</a>
+      <a class="mast-link" href="#/auth">登录状态</a>
+      <a class="mast-link" href="#/pipeline">管道</a>
+    </span>
+  </div>
+  <h1 class="mast-name">今日</h1>
+  <div class="mast-sub" id="mastSub"></div>
+  <div class="rule rule-double"></div>
+</header>
+
+<main id="view" class="view" tabindex="-1"></main>
+
+<div id="moreWrap" class="more-wrap">
+  <div class="rule"></div>
+  <p id="moreNote" class="more-note">正在铺版…</p>
+  <div class="more-actions"><button type="button" class="btn" id="moreBtn" data-act="load-more" hidden>看昨天的</button></div>
+</div>
+
+<footer class="foot">
+  <div class="rule"></div>
+  <p class="foot-note">一个人的报纸 · 数据来自本地后端 · <a href="#/">回到今天</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

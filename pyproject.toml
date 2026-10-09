@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personal-intel-loop"
+version = "0.1.0"
+description = "Personal information intake -> reading -> feedback loop (local-first)"
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+requires-python = ">=3.11"
+dependencies = [
+  "feedparser",
+  "pydantic>=2.6,<3",
+  "requests>=2.32",
+  "PyYAML>=6",
+  "numpy>=1.26",
+  "qdrant-client>=1.12",
+]
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=5,<6"]
+fulltext = ["trafilatura"]
+browser = ["playwright>=1.40"]
+youtube = ["curl_cffi", "youtube-transcript-api", "yt-dlp"]
+test = ["pytest>=8,<9", "cryptography>=42"]
+
+[project.scripts]
+pil = "personal_intel_loop.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+personal_intel_loop = ["migrations/*.sql", "paper_web/*"]

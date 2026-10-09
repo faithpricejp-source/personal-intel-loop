@@ -1,0 +1,45 @@
+{
+ "_note": "2026-10-05 playwright 打开 https://www.thepaper.cn/newsDetail_forward_34180516 抓到的真实 __NEXT_DATA__ 截取(正文 content 完整保留)",
+ "url": "https://www.thepaper.cn/newsDetail_forward_34180516",
+ "pageProps_keys": [
+  "contId",
+  "detailData"
+ ],
+ "contentDetail": {
+  "contId": 34180516,
+  "name": "暖侬心丨“就是举手之劳”，饿肚子大叔向烧烤店求助，老板毫不犹豫请他坐下吃饭",
+  "summary": "9月22日，上海一烧烤店外，一位衣衫破旧的老人询问店主李先生，是否可以将剩菜给他。李先生热情招呼老人坐下，并帮老人热了前一桌客人没吃的烤串，之后还将剩菜给老人打包带走。",
+  "content": "<video class=\"cont_video\" data-videoid=\"859751\" src=\"https://cloudvideo.thepaper.cn/video/90a33842285d4480aef0ea46d86e69db/hd/1790764098301_Et2BX3_1790765189873.mp4\" controls=\"controls\" webkit-playsinline=\"\" playsinline=\"\" x5-playsinline=\"\" x-webkit-airplay=\"allow\" preload=\"preload\" poster=\"https://imgpai.thepaper.cn/newpai/image/1790765305073_bBzs6M_1790765305360.png\" data-duration=\"00:35\" data-verticalvideo=\"1\" data-width=\"720\" data-height=\"1280\"></video>",
+  "author": "澎湃新闻记者 海日 编辑 海日",
+  "source": "澎湃新闻",
+  "pubTime": "2026-09-30 19:41",
+  "publishTime": 1790768478295,
+  "contType": 9,
+  "trackAuthor": "澎湃新闻记者 海日 编辑 海日",
+  "nodeInfo": {
+   "nodeId": 26911,
+   "name": "暖闻湃",
+   "desc": "为留住美好而生，传递温暖与力量。",
+   "pic": "https://image.thepaper.cn/depository/image/288/397/437.png",
+   "nodeType": 4,
+   "channelType": 0,
+   "forwordType": 23,
+   "forwardType": "2",
+   "parentId": 26886,
+   "bigDataCode": "nwp",
+   "isOrder": "0",
+   "shareName": "暖闻湃",
+   "nickName": "",
+   "publishTime": 1739242938000,
+   "mobForwardType": "23",
+   "summarize": "为留住美好而生，传递温暖与力量。",
+   "showSpecialBanner": false,
+   "showSpecialTopDesc": false,
+   "topBarTypeCustomColor": false,
+   "showVideoBottomRightBtn": false,
+   "isHideNode": 0
+  },
+  "pic": "https://imgpai.thepaper.cn/newpai/image/1790765305073_bBzs6M_1790765305360.png",
+  "tags": "饿肚子大叔,烧烤店老板,暖闻,正能量,上海"
+ }
+}

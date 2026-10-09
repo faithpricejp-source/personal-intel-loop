@@ -1,0 +1,28 @@
+# 版面预算(契约第 10.4 节)。各栏条数上限; 超出的不上版, 进「全部来源」。
+# risk / inbox 不设上限。改完随下次出版生效, 不用重启。
+
+[layout]
+lead = 1
+top = 5
+counter = 5
+briefs = 30
+blind = 9
+warmth = 5
+opportunity = 3
+settle = 5
+leisure = 4
+follow = 5
+# 风险栏里采集器入库的官方真实条目(home_alerts / mofa_anzen / who_don / cn_consular / enso_status,
+# source_payload.kind=="risk")条数上限。行前简报按行程数生成, 不受这个上限约束。
+risk_real = 5
+
+# 人间温暖栏的兜底来源(契约第 8 节): 这些 source 的条目无条件可入温暖栏
+# (与预处理 lane_tags 含 "warmth" 的判定并列)。留空 = 只靠 lane_tags。
+[warmth]
+sources = [
+  "rss_briefing:good_news_network",
+  "rss_briefing:positive_news",
+  # 具名人物栏目(html_columns.json 里的示例)
+  "html_columns:yomiuri_jidai",
+  "html_columns:asahi_hito",
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "ECB",
+    "url": "https://www.ecb.europa.eu/rss/press.html",
+    "category": "central_bank"
+  },
+  {
+    "name": "Hacker News Best",
+    "url": "https://hnrss.org/best?count=20",
+    "category": "技术"
+  },
+  {
+    "name": "Ars Technica",
+    "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "category": "技术"
+  },
+  {
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "category": "AI"
+  },
+  {
+    "name": "NHK World",
+    "url": "https://www3.nhk.or.jp/nhkworld/en/news/feeds/",
+    "category": "日本"
+  },
+  {
+    "name": "Fed Press Releases",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "category": "央行"
+  },
+  {
+    "name": "Good News Network",
+    "url": "https://www.goodnewsnetwork.org/feed/",
+    "category": "温暖"
+  },
+  {
+    "name": "Positive News",
+    "url": "https://www.positive.news/feed/",
+    "category": "温暖"
+  },
+  {
+    "name": "外務省 海外安全 新着",
+    "url": "https://www.anzen.mofa.go.jp/rss/news.xml",
+    "category": "风险"
+  },
+  {
+    "name": "US State Dept Travel Advisories",
+    "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
+    "category": "风险"
+  }
+]

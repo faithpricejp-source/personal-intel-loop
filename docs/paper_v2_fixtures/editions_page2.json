@@ -1,0 +1,2371 @@
+{
+ "editions": [
+  {
+   "date": "2026-10-03",
+   "built_at": "2026-10-03T09:12:00+09:00",
+   "sections": {
+    "lead": [
+     {
+      "item_id": "rss_briefing:harbor_review:2026-10-03-000",
+      "title": "港口吞吐量连续三月下滑，背后是一条被忽视的航线改道",
+      "url": "https://example.com/2026-10-03/0",
+      "source": "rss_briefing:harbor_review",
+      "source_label": "Harbor Review",
+      "author_key": "Harbor Review",
+      "author_label": "Harbor Review",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T00:10:00+09:00",
+      "lang": "en",
+      "image_url": "https://picsum.photos/seed/2026-10-030/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "资源/大宗",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.25,
+       "author": null
+      }
+     }
+    ],
+    "top": [
+     {
+      "item_id": "rss_briefing:kaigan_shimbun:2026-10-03-001",
+      "title": "一位渔民二十年记录的潮汐数据，修正了地方防灾图",
+      "url": "https://example.com/2026-10-03/1",
+      "source": "rss_briefing:kaigan_shimbun",
+      "source_label": "海岸新聞",
+      "author_key": "author_1",
+      "author_label": "作者1号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T01:11:00+09:00",
+      "lang": "ja",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "认识论/方法",
+      "style_tags": [
+       "访谈"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.32,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "rss_briefing:dongfang_weekly:2026-10-03-002",
+      "title": "为什么小镇银行比大银行更早看到坏账",
+      "url": "https://example.com/2026-10-03/2",
+      "source": "rss_briefing:dongfang_weekly",
+      "source_label": "东方周刊",
+      "author_key": "author_2",
+      "author_label": "作者2号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T02:12:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "AI 产业",
+      "style_tags": [
+       "冷幽默",
+       "清单体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 1,
+       "quality": 1,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": 0.56
+      }
+     },
+     {
+      "item_id": "follow_builders:lena_park:2026-10-03-003",
+      "title": "虚构岛国的盐税改革：一次制度意外后果",
+      "url": "https://example.com/2026-10-03/3",
+      "source": "follow_builders:lena_park",
+      "source_label": "Lena Park",
+      "author_key": "Lena Park",
+      "author_label": "Lena Park",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T03:13:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "制度动力学",
+      "style_tags": [
+       "第一人称",
+       "数据密集",
+       "清单体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": -1,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": "keep",
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": null
+      }
+     },
+     {
+      "item_id": "weibo_timeline:北岭老张:2026-10-03-004",
+      "title": "「我们错估了需求」：一家硬件公司的诚实复盘",
+      "url": "https://example.com/2026-10-03/4",
+      "source": "weibo_timeline:北岭老张",
+      "source_label": "北岭老张",
+      "author_key": "author_4",
+      "author_label": "作者4号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T04:14:00+09:00",
+      "lang": "zh",
+      "image_url": "https://picsum.photos/seed/2026-10-034/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "人间温暖",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": 0.72
+      }
+     },
+     {
+      "item_id": "youtube_followed:tidal_lab:2026-10-03-005",
+      "title": "铜价与海底电缆：一条传导链",
+      "url": "https://example.com/2026-10-03/5",
+      "source": "youtube_followed:tidal_lab",
+      "source_label": "Tidal Lab",
+      "author_key": "author_5",
+      "author_label": "作者5号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T05:15:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "地缘",
+      "style_tags": [
+       "访谈"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.6,
+       "author": 0.4
+      }
+     }
+    ],
+    "briefs": [
+     {
+      "item_id": "aihot:example_ai_blog:2026-10-03-006",
+      "title": "十年前的三条行业预测，今天对了两条",
+      "url": "https://example.com/2026-10-03/6",
+      "source": "aihot:example_ai_blog",
+      "source_label": "Example AI Blog",
+      "author_key": "Example AI Blog",
+      "author_label": "Example AI Blog",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T06:10:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "科学",
+      "style_tags": [
+       "冷幽默",
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.67,
+       "author": null
+      }
+     },
+     {
+      "item_id": "rss_briefing:mountain_econ:2026-10-03-007",
+      "title": "研究者用旧报纸重建百年降雨序列",
+      "url": "https://example.com/2026-10-03/7",
+      "source": "rss_briefing:mountain_econ",
+      "source_label": "山城经济观察",
+      "author_key": "author_0",
+      "author_label": "作者0号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T07:11:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "日本市场",
+      "style_tags": [
+       "学术腔",
+       "清单体",
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.25,
+       "author": 0.56
+      }
+     },
+     {
+      "item_id": "rss_briefing:harbor_review:2026-10-03-008",
+      "title": "某虚构城市的地铁票价实验",
+      "url": "https://example.com/2026-10-03/8",
+      "source": "rss_briefing:harbor_review",
+      "source_label": "Harbor Review",
+      "author_key": "author_1",
+      "author_label": "作者1号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T08:12:00+09:00",
+      "lang": "en",
+      "image_url": "https://picsum.photos/seed/2026-10-038/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "资源/大宗",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.32,
+       "author": 0.64
+      }
+     },
+     {
+      "item_id": "rss_briefing:kaigan_shimbun:2026-10-03-009",
+      "title": "退休教师匿名资助四十名学生，三十年后的回信",
+      "url": "https://example.com/2026-10-03/9",
+      "source": "rss_briefing:kaigan_shimbun",
+      "source_label": "海岸新聞",
+      "author_key": "海岸新聞",
+      "author_label": "海岸新聞",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T00:13:00+09:00",
+      "lang": "ja",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "认识论/方法",
+      "style_tags": [
+       "数据密集"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": null
+      }
+     },
+     {
+      "item_id": "rss_briefing:dongfang_weekly:2026-10-03-010",
+      "title": "算力租赁价格的季节性从何而来",
+      "url": "https://example.com/2026-10-03/10",
+      "source": "rss_briefing:dongfang_weekly",
+      "source_label": "东方周刊",
+      "author_key": "author_3",
+      "author_label": "作者3号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T01:14:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": null,
+      "one_liner": "算力租赁价格的季节性从何而来",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "AI 产业",
+      "style_tags": [
+       "冷幽默",
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": 0.4
+      }
+     },
+     {
+      "item_id": "follow_builders:lena_park:2026-10-03-011",
+      "title": "一个反直觉的数：城市越大人均道路越少",
+      "url": "https://example.com/2026-10-03/11",
+      "source": "follow_builders:lena_park",
+      "source_label": "Lena Park",
+      "author_key": "author_4",
+      "author_label": "作者4号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T02:15:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "制度动力学",
+      "style_tags": [
+       "长叙事",
+       "访谈",
+       "数据密集"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "weibo_timeline:北岭老张:2026-10-03-012",
+      "title": "仓储机器人为何在冷链里失灵",
+      "url": "https://example.com/2026-10-03/12",
+      "source": "weibo_timeline:北岭老张",
+      "source_label": "北岭老张",
+      "author_key": "北岭老张",
+      "author_label": "北岭老张",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T03:10:00+09:00",
+      "lang": "zh",
+      "image_url": "https://picsum.photos/seed/2026-10-0312/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "人间温暖",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.6,
+       "author": null
+      }
+     },
+     {
+      "item_id": "youtube_followed:tidal_lab:2026-10-03-013",
+      "title": "边境小镇的货币为什么双轨运行",
+      "url": "https://example.com/2026-10-03/13",
+      "source": "youtube_followed:tidal_lab",
+      "source_label": "Tidal Lab",
+      "author_key": "author_6",
+      "author_label": "作者6号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T04:11:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "地缘",
+      "style_tags": [
+       "冷幽默"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.67,
+       "author": 0.64
+      }
+     },
+     {
+      "item_id": "aihot:example_ai_blog:2026-10-03-014",
+      "title": "一份被遗忘的 1970 年代水利报告",
+      "url": "https://example.com/2026-10-03/14",
+      "source": "aihot:example_ai_blog",
+      "source_label": "Example AI Blog",
+      "author_key": "author_0",
+      "author_label": "作者0号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T05:12:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "科学",
+      "style_tags": [
+       "数据密集",
+       "第一人称"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.25,
+       "author": 0.72
+      }
+     },
+     {
+      "item_id": "rss_briefing:mountain_econ:2026-10-03-015",
+      "title": "作者访谈：如何判断一个预测者靠不靠谱",
+      "url": "https://example.com/2026-10-03/15",
+      "source": "rss_briefing:mountain_econ",
+      "source_label": "山城经济观察",
+      "author_key": "山城经济观察",
+      "author_label": "山城经济观察",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T06:13:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "日本市场",
+      "style_tags": [
+       "访谈",
+       "第一人称",
+       "清单体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.32,
+       "author": null
+      }
+     },
+     {
+      "item_id": "rss_briefing:harbor_review:2026-10-03-016",
+      "title": "海藻养殖的意外副产品",
+      "url": "https://example.com/2026-10-03/16",
+      "source": "rss_briefing:harbor_review",
+      "source_label": "Harbor Review",
+      "author_key": "author_2",
+      "author_label": "作者2号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T07:14:00+09:00",
+      "lang": "en",
+      "image_url": "https://picsum.photos/seed/2026-10-0316/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "资源/大宗",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "rss_briefing:kaigan_shimbun:2026-10-03-017",
+      "title": "从电费账单看工厂开工率",
+      "url": "https://example.com/2026-10-03/17",
+      "source": "rss_briefing:kaigan_shimbun",
+      "source_label": "海岸新聞",
+      "author_key": "author_3",
+      "author_label": "作者3号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T08:15:00+09:00",
+      "lang": "ja",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "认识论/方法",
+      "style_tags": [
+       "论战体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": 0.56
+      }
+     },
+     {
+      "item_id": "rss_briefing:dongfang_weekly:2026-10-03-018",
+      "title": "围绕一座灯塔的百年诉讼",
+      "url": "https://example.com/2026-10-03/18",
+      "source": "rss_briefing:dongfang_weekly",
+      "source_label": "东方周刊",
+      "author_key": "东方周刊",
+      "author_label": "东方周刊",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T00:10:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "AI 产业",
+      "style_tags": [
+       "学术腔",
+       "论战体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": null
+      }
+     },
+     {
+      "item_id": "follow_builders:lena_park:2026-10-03-019",
+      "title": "书评：一本讲失败工程的书",
+      "url": "https://example.com/2026-10-03/19",
+      "source": "follow_builders:lena_park",
+      "source_label": "Lena Park",
+      "author_key": "author_5",
+      "author_label": "作者5号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T01:11:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "制度动力学",
+      "style_tags": [
+       "冷幽默",
+       "数据密集",
+       "第一人称"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.6,
+       "author": 0.72
+      }
+     },
+     {
+      "item_id": "weibo_timeline:北岭老张:2026-10-03-020",
+      "title": "港口吞吐量连续三月下滑，背后是一条被忽视的航线改道（续 20）",
+      "url": "https://example.com/2026-10-03/20",
+      "source": "weibo_timeline:北岭老张",
+      "source_label": "北岭老张",
+      "author_key": "author_6",
+      "author_label": "作者6号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T02:12:00+09:00",
+      "lang": "zh",
+      "image_url": "https://picsum.photos/seed/2026-10-0320/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "人间温暖",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.67,
+       "author": 0.4
+      }
+     },
+     {
+      "item_id": "youtube_followed:tidal_lab:2026-10-03-021",
+      "title": "一位渔民二十年记录的潮汐数据，修正了地方防灾图（续 21）",
+      "url": "https://example.com/2026-10-03/21",
+      "source": "youtube_followed:tidal_lab",
+      "source_label": "Tidal Lab",
+      "author_key": "Tidal Lab",
+      "author_label": "Tidal Lab",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T03:13:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": null,
+      "one_liner": "一位渔民二十年记录的潮汐数据，修正了地方防灾图（续 21）",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "地缘",
+      "style_tags": [
+       "冷幽默"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.25,
+       "author": null
+      }
+     },
+     {
+      "item_id": "aihot:example_ai_blog:2026-10-03-022",
+      "title": "为什么小镇银行比大银行更早看到坏账（续 22）",
+      "url": "https://example.com/2026-10-03/22",
+      "source": "aihot:example_ai_blog",
+      "source_label": "Example AI Blog",
+      "author_key": "author_1",
+      "author_label": "作者1号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T04:14:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "科学",
+      "style_tags": [
+       "学术腔",
+       "访谈"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.32,
+       "author": 0.56
+      }
+     },
+     {
+      "item_id": "rss_briefing:mountain_econ:2026-10-03-023",
+      "title": "虚构岛国的盐税改革：一次制度意外后果（续 23）",
+      "url": "https://example.com/2026-10-03/23",
+      "source": "rss_briefing:mountain_econ",
+      "source_label": "山城经济观察",
+      "author_key": "author_2",
+      "author_label": "作者2号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T05:15:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "日本市场",
+      "style_tags": [
+       "访谈",
+       "第一人称",
+       "论战体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": 0.64
+      }
+     },
+     {
+      "item_id": "rss_briefing:harbor_review:2026-10-03-024",
+      "title": "「我们错估了需求」：一家硬件公司的诚实复盘（续 24）",
+      "url": "https://example.com/2026-10-03/24",
+      "source": "rss_briefing:harbor_review",
+      "source_label": "Harbor Review",
+      "author_key": "Harbor Review",
+      "author_label": "Harbor Review",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T06:10:00+09:00",
+      "lang": "en",
+      "image_url": "https://picsum.photos/seed/2026-10-0324/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "资源/大宗",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": null
+      }
+     },
+     {
+      "item_id": "rss_briefing:kaigan_shimbun:2026-10-03-025",
+      "title": "铜价与海底电缆：一条传导链（续 25）",
+      "url": "https://example.com/2026-10-03/25",
+      "source": "rss_briefing:kaigan_shimbun",
+      "source_label": "海岸新聞",
+      "author_key": "author_4",
+      "author_label": "作者4号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T07:11:00+09:00",
+      "lang": "ja",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "认识论/方法",
+      "style_tags": [
+       "访谈"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": 0.4
+      }
+     },
+     {
+      "item_id": "rss_briefing:dongfang_weekly:2026-10-03-026",
+      "title": "十年前的三条行业预测，今天对了两条（续 26）",
+      "url": "https://example.com/2026-10-03/26",
+      "source": "rss_briefing:dongfang_weekly",
+      "source_label": "东方周刊",
+      "author_key": "author_5",
+      "author_label": "作者5号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T08:12:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "AI 产业",
+      "style_tags": [
+       "学术腔",
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.6,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "follow_builders:lena_park:2026-10-03-027",
+      "title": "研究者用旧报纸重建百年降雨序列（续 27）",
+      "url": "https://example.com/2026-10-03/27",
+      "source": "follow_builders:lena_park",
+      "source_label": "Lena Park",
+      "author_key": "Lena Park",
+      "author_label": "Lena Park",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T00:13:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "制度动力学",
+      "style_tags": [
+       "学术腔",
+       "第一人称",
+       "冷幽默"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.67,
+       "author": null
+      }
+     },
+     {
+      "item_id": "weibo_timeline:北岭老张:2026-10-03-028",
+      "title": "某虚构城市的地铁票价实验（续 28）",
+      "url": "https://example.com/2026-10-03/28",
+      "source": "weibo_timeline:北岭老张",
+      "source_label": "北岭老张",
+      "author_key": "author_0",
+      "author_label": "作者0号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T01:14:00+09:00",
+      "lang": "zh",
+      "image_url": "https://picsum.photos/seed/2026-10-0328/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "人间温暖",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.25,
+       "author": 0.64
+      }
+     },
+     {
+      "item_id": "youtube_followed:tidal_lab:2026-10-03-029",
+      "title": "退休教师匿名资助四十名学生，三十年后的回信（续 29）",
+      "url": "https://example.com/2026-10-03/29",
+      "source": "youtube_followed:tidal_lab",
+      "source_label": "Tidal Lab",
+      "author_key": "author_1",
+      "author_label": "作者1号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T02:15:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "地缘",
+      "style_tags": [
+       "第一人称"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.32,
+       "author": 0.72
+      }
+     }
+    ],
+    "blind": [
+     {
+      "item_id": "weibo_timeline:北岭老张:2026-10-03-100",
+      "title": "港口吞吐量连续三月下滑，背后是一条被忽视的航线改道（续 100）",
+      "url": "https://example.com/2026-10-03/100",
+      "source": "weibo_timeline:北岭老张",
+      "source_label": "北岭老张",
+      "author_key": "author_2",
+      "author_label": "作者2号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T01:14:00+09:00",
+      "lang": "zh",
+      "image_url": "https://picsum.photos/seed/2026-10-03100/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "人间温暖",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": null,
+       "lane": "blind",
+       "blind_reason": "示例盲区：与自己立场相反的一手叙述"
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": 0.4
+      }
+     },
+     {
+      "item_id": "youtube_followed:tidal_lab:2026-10-03-101",
+      "title": "一位渔民二十年记录的潮汐数据，修正了地方防灾图（续 101）",
+      "url": "https://example.com/2026-10-03/101",
+      "source": "youtube_followed:tidal_lab",
+      "source_label": "Tidal Lab",
+      "author_key": "author_3",
+      "author_label": "作者3号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T02:15:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "地缘",
+      "style_tags": [
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": null,
+       "lane": "blind",
+       "blind_reason": "示例盲区：与自己立场相反的一手叙述"
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "aihot:example_ai_blog:2026-10-03-102",
+      "title": "为什么小镇银行比大银行更早看到坏账（续 102）",
+      "url": "https://example.com/2026-10-03/102",
+      "source": "aihot:example_ai_blog",
+      "source_label": "Example AI Blog",
+      "author_key": "Example AI Blog",
+      "author_label": "Example AI Blog",
+      "author_is_byline": false,
+      "published_at": "2026-10-03T03:10:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "科学",
+      "style_tags": [
+       "长叙事",
+       "第一人称"
+      ],
+      "why_here": {
+       "profile_hit": null,
+       "lane": "blind",
+       "blind_reason": "示例盲区：与自己立场相反的一手叙述"
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": null
+      }
+     },
+     {
+      "item_id": "rss_briefing:mountain_econ:2026-10-03-103",
+      "title": "虚构岛国的盐税改革：一次制度意外后果（续 103）",
+      "url": "https://example.com/2026-10-03/103",
+      "source": "rss_briefing:mountain_econ",
+      "source_label": "山城经济观察",
+      "author_key": "author_5",
+      "author_label": "作者5号",
+      "author_is_byline": true,
+      "published_at": "2026-10-03T04:11:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "日本市场",
+      "style_tags": [
+       "论战体",
+       "数据密集",
+       "冷幽默"
+      ],
+      "why_here": {
+       "profile_hit": null,
+       "lane": "blind",
+       "blind_reason": "示例盲区：与自己立场相反的一手叙述"
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.6,
+       "author": 0.64
+      }
+     }
+    ]
+   },
+   "letters": [],
+   "stats": {
+    "pool": 268,
+    "picked": 34,
+    "ai_done": 32
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "built_at": "2026-10-02T09:12:00+09:00",
+   "sections": {
+    "lead": [
+     {
+      "item_id": "rss_briefing:harbor_review:2026-10-02-000",
+      "title": "港口吞吐量连续三月下滑，背后是一条被忽视的航线改道",
+      "url": "https://example.com/2026-10-02/0",
+      "source": "rss_briefing:harbor_review",
+      "source_label": "Harbor Review",
+      "author_key": "Harbor Review",
+      "author_label": "Harbor Review",
+      "author_is_byline": false,
+      "published_at": "2026-10-02T00:10:00+09:00",
+      "lang": "en",
+      "image_url": "https://picsum.photos/seed/2026-10-020/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "资源/大宗",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.25,
+       "author": null
+      }
+     }
+    ],
+    "top": [
+     {
+      "item_id": "rss_briefing:kaigan_shimbun:2026-10-02-001",
+      "title": "一位渔民二十年记录的潮汐数据，修正了地方防灾图",
+      "url": "https://example.com/2026-10-02/1",
+      "source": "rss_briefing:kaigan_shimbun",
+      "source_label": "海岸新聞",
+      "author_key": "author_1",
+      "author_label": "作者1号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T01:11:00+09:00",
+      "lang": "ja",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "认识论/方法",
+      "style_tags": [
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.32,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "rss_briefing:dongfang_weekly:2026-10-02-002",
+      "title": "为什么小镇银行比大银行更早看到坏账",
+      "url": "https://example.com/2026-10-02/2",
+      "source": "rss_briefing:dongfang_weekly",
+      "source_label": "东方周刊",
+      "author_key": "author_2",
+      "author_label": "作者2号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T02:12:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "AI 产业",
+      "style_tags": [
+       "访谈",
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 1,
+       "quality": 1,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": 0.56
+      }
+     },
+     {
+      "item_id": "follow_builders:lena_park:2026-10-02-003",
+      "title": "虚构岛国的盐税改革：一次制度意外后果",
+      "url": "https://example.com/2026-10-02/3",
+      "source": "follow_builders:lena_park",
+      "source_label": "Lena Park",
+      "author_key": "Lena Park",
+      "author_label": "Lena Park",
+      "author_is_byline": false,
+      "published_at": "2026-10-02T03:13:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "制度动力学",
+      "style_tags": [
+       "数据密集",
+       "第一人称",
+       "论战体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": -1,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": "keep",
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": null
+      }
+     },
+     {
+      "item_id": "weibo_timeline:北岭老张:2026-10-02-004",
+      "title": "「我们错估了需求」：一家硬件公司的诚实复盘",
+      "url": "https://example.com/2026-10-02/4",
+      "source": "weibo_timeline:北岭老张",
+      "source_label": "北岭老张",
+      "author_key": "author_4",
+      "author_label": "作者4号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T04:14:00+09:00",
+      "lang": "zh",
+      "image_url": "https://picsum.photos/seed/2026-10-024/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "人间温暖",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": 0.72
+      }
+     },
+     {
+      "item_id": "youtube_followed:tidal_lab:2026-10-02-005",
+      "title": "铜价与海底电缆：一条传导链",
+      "url": "https://example.com/2026-10-02/5",
+      "source": "youtube_followed:tidal_lab",
+      "source_label": "Tidal Lab",
+      "author_key": "author_5",
+      "author_label": "作者5号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T05:15:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "地缘",
+      "style_tags": [
+       "清单体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.6,
+       "author": 0.4
+      }
+     }
+    ],
+    "briefs": [
+     {
+      "item_id": "aihot:example_ai_blog:2026-10-02-006",
+      "title": "十年前的三条行业预测，今天对了两条",
+      "url": "https://example.com/2026-10-02/6",
+      "source": "aihot:example_ai_blog",
+      "source_label": "Example AI Blog",
+      "author_key": "Example AI Blog",
+      "author_label": "Example AI Blog",
+      "author_is_byline": false,
+      "published_at": "2026-10-02T06:10:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "科学",
+      "style_tags": [
+       "清单体",
+       "第一人称"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.67,
+       "author": null
+      }
+     },
+     {
+      "item_id": "rss_briefing:mountain_econ:2026-10-02-007",
+      "title": "研究者用旧报纸重建百年降雨序列",
+      "url": "https://example.com/2026-10-02/7",
+      "source": "rss_briefing:mountain_econ",
+      "source_label": "山城经济观察",
+      "author_key": "author_0",
+      "author_label": "作者0号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T07:11:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "日本市场",
+      "style_tags": [
+       "数据密集",
+       "论战体",
+       "清单体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.25,
+       "author": 0.56
+      }
+     },
+     {
+      "item_id": "rss_briefing:harbor_review:2026-10-02-008",
+      "title": "某虚构城市的地铁票价实验",
+      "url": "https://example.com/2026-10-02/8",
+      "source": "rss_briefing:harbor_review",
+      "source_label": "Harbor Review",
+      "author_key": "author_1",
+      "author_label": "作者1号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T08:12:00+09:00",
+      "lang": "en",
+      "image_url": "https://picsum.photos/seed/2026-10-028/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "资源/大宗",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.32,
+       "author": 0.64
+      }
+     },
+     {
+      "item_id": "rss_briefing:kaigan_shimbun:2026-10-02-009",
+      "title": "退休教师匿名资助四十名学生，三十年后的回信",
+      "url": "https://example.com/2026-10-02/9",
+      "source": "rss_briefing:kaigan_shimbun",
+      "source_label": "海岸新聞",
+      "author_key": "海岸新聞",
+      "author_label": "海岸新聞",
+      "author_is_byline": false,
+      "published_at": "2026-10-02T00:13:00+09:00",
+      "lang": "ja",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "认识论/方法",
+      "style_tags": [
+       "学术腔"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": null
+      }
+     },
+     {
+      "item_id": "rss_briefing:dongfang_weekly:2026-10-02-010",
+      "title": "算力租赁价格的季节性从何而来",
+      "url": "https://example.com/2026-10-02/10",
+      "source": "rss_briefing:dongfang_weekly",
+      "source_label": "东方周刊",
+      "author_key": "author_3",
+      "author_label": "作者3号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T01:14:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": null,
+      "one_liner": "算力租赁价格的季节性从何而来",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "AI 产业",
+      "style_tags": [
+       "学术腔",
+       "论战体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": 0.4
+      }
+     },
+     {
+      "item_id": "follow_builders:lena_park:2026-10-02-011",
+      "title": "一个反直觉的数：城市越大人均道路越少",
+      "url": "https://example.com/2026-10-02/11",
+      "source": "follow_builders:lena_park",
+      "source_label": "Lena Park",
+      "author_key": "author_4",
+      "author_label": "作者4号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T02:15:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "制度动力学",
+      "style_tags": [
+       "学术腔",
+       "数据密集",
+       "论战体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "weibo_timeline:北岭老张:2026-10-02-012",
+      "title": "仓储机器人为何在冷链里失灵",
+      "url": "https://example.com/2026-10-02/12",
+      "source": "weibo_timeline:北岭老张",
+      "source_label": "北岭老张",
+      "author_key": "北岭老张",
+      "author_label": "北岭老张",
+      "author_is_byline": false,
+      "published_at": "2026-10-02T03:10:00+09:00",
+      "lang": "zh",
+      "image_url": "https://picsum.photos/seed/2026-10-0212/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "人间温暖",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.6,
+       "author": null
+      }
+     },
+     {
+      "item_id": "youtube_followed:tidal_lab:2026-10-02-013",
+      "title": "边境小镇的货币为什么双轨运行",
+      "url": "https://example.com/2026-10-02/13",
+      "source": "youtube_followed:tidal_lab",
+      "source_label": "Tidal Lab",
+      "author_key": "author_6",
+      "author_label": "作者6号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T04:11:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "地缘",
+      "style_tags": [
+       "学术腔"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.67,
+       "author": 0.64
+      }
+     },
+     {
+      "item_id": "aihot:example_ai_blog:2026-10-02-014",
+      "title": "一份被遗忘的 1970 年代水利报告",
+      "url": "https://example.com/2026-10-02/14",
+      "source": "aihot:example_ai_blog",
+      "source_label": "Example AI Blog",
+      "author_key": "author_0",
+      "author_label": "作者0号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T05:12:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "科学",
+      "style_tags": [
+       "数据密集",
+       "第一人称"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.25,
+       "author": 0.72
+      }
+     },
+     {
+      "item_id": "rss_briefing:mountain_econ:2026-10-02-015",
+      "title": "作者访谈：如何判断一个预测者靠不靠谱",
+      "url": "https://example.com/2026-10-02/15",
+      "source": "rss_briefing:mountain_econ",
+      "source_label": "山城经济观察",
+      "author_key": "山城经济观察",
+      "author_label": "山城经济观察",
+      "author_is_byline": false,
+      "published_at": "2026-10-02T06:13:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "日本市场",
+      "style_tags": [
+       "第一人称",
+       "冷幽默",
+       "论战体"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.32,
+       "author": null
+      }
+     },
+     {
+      "item_id": "rss_briefing:harbor_review:2026-10-02-016",
+      "title": "海藻养殖的意外副产品",
+      "url": "https://example.com/2026-10-02/16",
+      "source": "rss_briefing:harbor_review",
+      "source_label": "Harbor Review",
+      "author_key": "author_2",
+      "author_label": "作者2号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T07:14:00+09:00",
+      "lang": "en",
+      "image_url": "https://picsum.photos/seed/2026-10-0216/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "资源/大宗",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "rss_briefing:kaigan_shimbun:2026-10-02-017",
+      "title": "从电费账单看工厂开工率",
+      "url": "https://example.com/2026-10-02/17",
+      "source": "rss_briefing:kaigan_shimbun",
+      "source_label": "海岸新聞",
+      "author_key": "author_3",
+      "author_label": "作者3号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T08:15:00+09:00",
+      "lang": "ja",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "认识论/方法",
+      "style_tags": [
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": 0.56
+      }
+     },
+     {
+      "item_id": "rss_briefing:dongfang_weekly:2026-10-02-018",
+      "title": "围绕一座灯塔的百年诉讼",
+      "url": "https://example.com/2026-10-02/18",
+      "source": "rss_briefing:dongfang_weekly",
+      "source_label": "东方周刊",
+      "author_key": "东方周刊",
+      "author_label": "东方周刊",
+      "author_is_byline": false,
+      "published_at": "2026-10-02T00:10:00+09:00",
+      "lang": "zh",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "AI 产业",
+      "style_tags": [
+       "第一人称",
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": null
+      }
+     },
+     {
+      "item_id": "follow_builders:lena_park:2026-10-02-019",
+      "title": "书评：一本讲失败工程的书",
+      "url": "https://example.com/2026-10-02/19",
+      "source": "follow_builders:lena_park",
+      "source_label": "Lena Park",
+      "author_key": "author_5",
+      "author_label": "作者5号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T01:11:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "制度动力学",
+      "style_tags": [
+       "数据密集",
+       "冷幽默",
+       "学术腔"
+      ],
+      "why_here": {
+       "profile_hit": "示例画像：优先看讲得出传导路径的东西",
+       "lane": "1",
+       "blind_reason": null
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.6,
+       "author": 0.72
+      }
+     }
+    ],
+    "blind": [
+     {
+      "item_id": "weibo_timeline:北岭老张:2026-10-02-100",
+      "title": "港口吞吐量连续三月下滑，背后是一条被忽视的航线改道（续 100）",
+      "url": "https://example.com/2026-10-02/100",
+      "source": "weibo_timeline:北岭老张",
+      "source_label": "北岭老张",
+      "author_key": "author_2",
+      "author_label": "作者2号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T01:14:00+09:00",
+      "lang": "zh",
+      "image_url": "https://picsum.photos/seed/2026-10-02100/800/500",
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": {
+       "text": "到 2027 年 3 月该指标回升 10% 以上",
+       "check_after": "2027-03-31"
+      },
+      "topic": "人间温暖",
+      "style_tags": [],
+      "why_here": {
+       "profile_hit": null,
+       "lane": "blind",
+       "blind_reason": "示例盲区：与自己立场相反的一手叙述"
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.39,
+       "author": 0.4
+      }
+     },
+     {
+      "item_id": "youtube_followed:tidal_lab:2026-10-02-101",
+      "title": "一位渔民二十年记录的潮汐数据，修正了地方防灾图（续 101）",
+      "url": "https://example.com/2026-10-02/101",
+      "source": "youtube_followed:tidal_lab",
+      "source_label": "Tidal Lab",
+      "author_key": "author_3",
+      "author_label": "作者3号",
+      "author_is_byline": true,
+      "published_at": "2026-10-02T02:15:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": null,
+      "so_what": null,
+      "claim": null,
+      "topic": "地缘",
+      "style_tags": [
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": null,
+       "lane": "blind",
+       "blind_reason": "示例盲区：与自己立场相反的一手叙述"
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.46,
+       "author": 0.48
+      }
+     },
+     {
+      "item_id": "aihot:example_ai_blog:2026-10-02-102",
+      "title": "为什么小镇银行比大银行更早看到坏账（续 102）",
+      "url": "https://example.com/2026-10-02/102",
+      "source": "aihot:example_ai_blog",
+      "source_label": "Example AI Blog",
+      "author_key": "Example AI Blog",
+      "author_label": "Example AI Blog",
+      "author_is_byline": false,
+      "published_at": "2026-10-02T03:10:00+09:00",
+      "lang": "en",
+      "image_url": null,
+      "lede": "这是虚构的导语示例，用来测试版面。它讲清楚发生了什么，以及之前是什么状态。第三句给出往下会改变什么。",
+      "one_liner": "一句话概括这条虚构新闻的要点。",
+      "backstory": "来龙：此前三年该指标一直平稳。",
+      "so_what": "去脉：若持续，下游价格将在两个季度内上调。",
+      "claim": null,
+      "topic": "科学",
+      "style_tags": [
+       "第一人称",
+       "长叙事"
+      ],
+      "why_here": {
+       "profile_hit": null,
+       "lane": "blind",
+       "blind_reason": "示例盲区：与自己立场相反的一手叙述"
+      },
+      "my": {
+       "overall": 0,
+       "quality": 0,
+       "author": 0,
+       "style": 0,
+       "topic": 0,
+       "reason_code": null,
+       "note": null
+      },
+      "trust": {
+       "source": 0.53,
+       "author": null
+      }
+     }
+    ]
+   },
+   "letters": [],
+   "stats": {
+    "pool": 268,
+    "picked": 23,
+    "ai_done": 21
+   }
+  }
+ ],
+ "next_before": null
+}

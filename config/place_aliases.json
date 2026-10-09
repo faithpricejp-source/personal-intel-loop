@@ -1,0 +1,1557 @@
+{
+  "_comment": "国家/城市多语别名表。key = 国家 slug, 对应 ref/official/<key>.md; cities.<city_key>.hotspot = ref/hotspots/hotspots_<hotspot>.json 的城市段。只写确定的标准写法。",
+  "countries": [
+    {
+      "key": "thailand",
+      "zh": [
+        "泰国",
+        "泰國"
+      ],
+      "ja": [
+        "タイ"
+      ],
+      "en": [
+        "Thailand"
+      ],
+      "cities": {
+        "bangkok": {
+          "zh": [
+            "曼谷"
+          ],
+          "ja": [
+            "バンコク"
+          ],
+          "en": [
+            "Bangkok"
+          ]
+        },
+        "phuket": {
+          "zh": [
+            "普吉",
+            "普吉岛"
+          ],
+          "ja": [
+            "プケット"
+          ],
+          "en": [
+            "Phuket"
+          ]
+        },
+        "chiangmai": {
+          "zh": [
+            "清迈",
+            "清邁"
+          ],
+          "ja": [
+            "チェンマイ"
+          ],
+          "en": [
+            "Chiang Mai"
+          ]
+        },
+        "pattaya": {
+          "zh": [
+            "芭堤雅"
+          ],
+          "ja": [
+            "パッタヤ"
+          ],
+          "en": [
+            "Pattaya"
+          ]
+        }
+      }
+    },
+    {
+      "key": "unitedstates",
+      "zh": [
+        "美国",
+        "美國"
+      ],
+      "ja": [
+        "米国",
+        "アメリカ合衆国"
+      ],
+      "en": [
+        "United States",
+        "USA",
+        "U.S.",
+        "America"
+      ],
+      "cities": {
+        "newyork": {
+          "zh": [
+            "纽约",
+            "紐約"
+          ],
+          "ja": [
+            "ニューヨーク"
+          ],
+          "en": [
+            "New York",
+            "New York City",
+            "NYC"
+          ],
+          "hotspot": "nyc"
+        },
+        "losangeles": {
+          "zh": [
+            "洛杉矶",
+            "洛杉磯"
+          ],
+          "ja": [
+            "ロサンゼルス"
+          ],
+          "en": [
+            "Los Angeles"
+          ],
+          "hotspot": "la"
+        },
+        "sanfrancisco": {
+          "zh": [
+            "旧金山",
+            "舊金山",
+            "三藩市"
+          ],
+          "ja": [
+            "サンフランシスコ"
+          ],
+          "en": [
+            "San Francisco",
+            "SF"
+          ],
+          "hotspot": "sf"
+        },
+        "chicago": {
+          "zh": [
+            "芝加哥"
+          ],
+          "ja": [
+            "シカゴ"
+          ],
+          "en": [
+            "Chicago"
+          ],
+          "hotspot": "chicago"
+        },
+        "washington": {
+          "zh": [
+            "华盛顿",
+            "華盛頓"
+          ],
+          "ja": [
+            "ワシントン"
+          ],
+          "en": [
+            "Washington",
+            "Washington DC"
+          ]
+        },
+        "seattle": {
+          "zh": [
+            "西雅图",
+            "西雅圖"
+          ],
+          "ja": [
+            "シアトル"
+          ],
+          "en": [
+            "Seattle"
+          ]
+        },
+        "boston": {
+          "zh": [
+            "波士顿",
+            "波士頓"
+          ],
+          "ja": [
+            "ボストン"
+          ],
+          "en": [
+            "Boston"
+          ]
+        },
+        "miami": {
+          "zh": [
+            "迈阿密",
+            "邁阿密"
+          ],
+          "ja": [
+            "マイアミ"
+          ],
+          "en": [
+            "Miami"
+          ]
+        },
+        "honolulu": {
+          "zh": [
+            "檀香山",
+            "火奴鲁鲁"
+          ],
+          "ja": [
+            "ホノルル"
+          ],
+          "en": [
+            "Honolulu"
+          ]
+        },
+        "lasvegas": {
+          "zh": [
+            "拉斯维加斯"
+          ],
+          "ja": [
+            "ラスベガス"
+          ],
+          "en": [
+            "Las Vegas"
+          ]
+        }
+      }
+    },
+    {
+      "key": "southkorea",
+      "zh": [
+        "韩国",
+        "韓國",
+        "南朝鲜"
+      ],
+      "ja": [
+        "韓国",
+        "大韓民国"
+      ],
+      "en": [
+        "South Korea",
+        "Korea",
+        "Republic of Korea"
+      ],
+      "cities": {
+        "seoul": {
+          "zh": [
+            "首尔",
+            "首爾",
+            "汉城",
+            "漢城"
+          ],
+          "ja": [
+            "ソウル",
+            "漢城"
+          ],
+          "en": [
+            "Seoul"
+          ]
+        },
+        "busan": {
+          "zh": [
+            "釜山",
+            "釜山广域市"
+          ],
+          "ja": [
+            "부산"
+          ],
+          "en": [
+            "Busan",
+            "Pusan"
+          ]
+        },
+        "jeju": {
+          "zh": [
+            "济州",
+            "濟州",
+            "济州岛"
+          ],
+          "ja": [
+            "済州",
+            "チェジュ"
+          ],
+          "en": [
+            "Jeju",
+            "Jeju Island"
+          ]
+        },
+        "incheon": {
+          "zh": [
+            "仁川"
+          ],
+          "ja": [
+            "仁川"
+          ],
+          "en": [
+            "Incheon"
+          ]
+        },
+        "daegu": {
+          "zh": [
+            "大邱",
+            "大邱广域市"
+          ],
+          "ja": [
+            "大邱"
+          ],
+          "en": [
+            "Daegu",
+            "Taegu"
+          ]
+        }
+      }
+    },
+    {
+      "key": "taiwan",
+      "zh": [
+        "台湾",
+        "台灣",
+        "中华民国"
+      ],
+      "ja": [
+        "台湾"
+      ],
+      "en": [
+        "Taiwan"
+      ],
+      "cities": {
+        "taipei": {
+          "zh": [
+            "台北"
+          ],
+          "ja": [
+            "台北"
+          ],
+          "en": [
+            "Taipei"
+          ]
+        },
+        "kaohsiung": {
+          "zh": [
+            "高雄"
+          ],
+          "ja": [
+            "高雄"
+          ],
+          "en": [
+            "Kaohsiung"
+          ]
+        },
+        "taichung": {
+          "zh": [
+            "台中",
+            "臺中"
+          ],
+          "ja": [
+            "台中"
+          ],
+          "en": [
+            "Taichung"
+          ]
+        },
+        "tainan": {
+          "zh": [
+            "台南",
+            "臺南"
+          ],
+          "ja": [
+            "台南"
+          ],
+          "en": [
+            "Tainan"
+          ]
+        }
+      }
+    },
+    {
+      "key": "vietnam",
+      "zh": [
+        "越南"
+      ],
+      "ja": [
+        "ベトナム",
+        "ベトナム"
+      ],
+      "en": [
+        "Vietnam",
+        "Viet Nam"
+      ],
+      "cities": {
+        "hanoi": {
+          "zh": [
+            "河内",
+            "河內",
+            "河内市"
+          ],
+          "ja": [
+            "ハノイ"
+          ],
+          "en": [
+            "Hanoi",
+            "Ha Noi"
+          ]
+        },
+        "hochiminh": {
+          "zh": [
+            "胡志明市",
+            "胡志明",
+            "西贡"
+          ],
+          "ja": [
+            "ホーチミン市",
+            "ホーチミン"
+          ],
+          "en": [
+            "Ho Chi Minh City",
+            "Saigon"
+          ]
+        },
+        "halong": {
+          "zh": [
+            "下龙湾",
+            "下龍灣",
+            "下龙湾市"
+          ],
+          "ja": [
+            "ハロン湾",
+            "ハロン"
+          ],
+          "en": [
+            "Ha Long",
+            "Halong Bay"
+          ]
+        },
+        "danang": {
+          "zh": [
+            "岘港",
+            "峴港"
+          ],
+          "ja": [
+            "ダナン"
+          ],
+          "en": [
+            "Da Nang"
+          ]
+        },
+        "hoian": {
+          "zh": [
+            "会安",
+            "會安"
+          ],
+          "ja": [
+            "ホイアン"
+          ],
+          "en": [
+            "Hoi An"
+          ]
+        },
+        "hue": {
+          "zh": [
+            "顺化",
+            "順化"
+          ],
+          "ja": [
+            "フエ"
+          ],
+          "en": [
+            "Hue"
+          ]
+        }
+      }
+    },
+    {
+      "key": "singapore",
+      "zh": [
+        "新加坡",
+        "星加坡",
+        "狮城",
+        "獅城"
+      ],
+      "ja": [
+        "シンガポール"
+      ],
+      "en": [
+        "Singapore"
+      ],
+      "cities": {
+        "singapore": {
+          "zh": [
+            "新加坡",
+            "星加坡"
+          ],
+          "ja": [
+            "シンガポール"
+          ],
+          "en": [
+            "Singapore"
+          ]
+        }
+      }
+    },
+    {
+      "key": "china",
+      "zh": [
+        "中国",
+        "中國",
+        "中国大陆"
+      ],
+      "ja": [
+        "中国",
+        "中華人民共和国"
+      ],
+      "en": [
+        "China",
+        "PRC",
+        "Mainland China"
+      ],
+      "cities": {
+        "shanghai": {
+          "zh": [
+            "上海",
+            "上海市"
+          ],
+          "ja": [
+            "上海",
+            "シャンハイ"
+          ],
+          "en": [
+            "Shanghai"
+          ]
+        },
+        "beijing": {
+          "zh": [
+            "北京",
+            "北京市"
+          ],
+          "ja": [
+            "北京",
+            "ペキン"
+          ],
+          "en": [
+            "Beijing",
+            "Peking"
+          ]
+        },
+        "guangzhou": {
+          "zh": [
+            "广州",
+            "廣州"
+          ],
+          "ja": [
+            "広州",
+            "広東"
+          ],
+          "en": [
+            "Guangzhou",
+            "Canton"
+          ]
+        },
+        "shenzhen": {
+          "zh": [
+            "深圳",
+            "深圳市"
+          ],
+          "ja": [
+            "深セン"
+          ],
+          "en": [
+            "Shenzhen"
+          ]
+        },
+        "xian": {
+          "zh": [
+            "西安"
+          ],
+          "ja": [
+            "西安",
+            "シアン"
+          ],
+          "en": [
+            "Xi'an",
+            "Xian"
+          ]
+        },
+        "chengdu": {
+          "zh": [
+            "成都"
+          ],
+          "ja": [
+            "成都"
+          ],
+          "en": [
+            "Chengdu"
+          ]
+        },
+        "hangzhou": {
+          "zh": [
+            "杭州"
+          ],
+          "ja": [
+            "杭州"
+          ],
+          "en": [
+            "Hangzhou"
+          ]
+        },
+        "hongkong": {
+          "zh": [
+            "香港",
+            "香港特别行政区"
+          ],
+          "ja": [
+            "香港"
+          ],
+          "en": [
+            "Hong Kong",
+            "Hong Kong SAR"
+          ]
+        }
+      }
+    },
+    {
+      "key": "japan",
+      "zh": [
+        "日本"
+      ],
+      "ja": [
+        "日本",
+        "日本国"
+      ],
+      "en": [
+        "Japan"
+      ],
+      "cities": {
+        "tokyo": {
+          "zh": [
+            "东京",
+            "東京"
+          ],
+          "ja": [
+            "東京",
+            "東京"
+          ],
+          "en": [
+            "Tokyo"
+          ]
+        },
+        "osaka": {
+          "zh": [
+            "大阪",
+            "大阪市"
+          ],
+          "ja": [
+            "大阪"
+          ],
+          "en": [
+            "Osaka"
+          ]
+        },
+        "kyoto": {
+          "zh": [
+            "京都",
+            "京都市"
+          ],
+          "ja": [
+            "京都"
+          ],
+          "en": [
+            "Kyoto"
+          ]
+        },
+        "fukuoka": {
+          "zh": [
+            "福冈",
+            "福岡",
+            "福冈市"
+          ],
+          "ja": [
+            "福岡"
+          ],
+          "en": [
+            "Fukuoka"
+          ]
+        },
+        "nagoya": {
+          "zh": [
+            "名古屋"
+          ],
+          "ja": [
+            "名古屋"
+          ],
+          "en": [
+            "Nagoya"
+          ]
+        },
+        "sapporo": {
+          "zh": [
+            "札幌"
+          ],
+          "ja": [
+            "札幌"
+          ],
+          "en": [
+            "Sapporo"
+          ]
+        },
+        "yokohama": {
+          "zh": [
+            "横滨",
+            "橫濱"
+          ],
+          "ja": [
+            "横浜"
+          ],
+          "en": [
+            "Yokohama"
+          ]
+        },
+        "hiroshima": {
+          "zh": [
+            "广岛",
+            "廣島"
+          ],
+          "ja": [
+            "広島"
+          ],
+          "en": [
+            "Hiroshima"
+          ]
+        }
+      }
+    },
+    {
+      "key": "malaysia",
+      "zh": [
+        "马来西亚",
+        "馬來西亞"
+      ],
+      "ja": [
+        "マレーシア"
+      ],
+      "en": [
+        "Malaysia"
+      ],
+      "cities": {
+        "kualalumpur": {
+          "zh": [
+            "吉隆坡"
+          ],
+          "ja": [
+            "クアラルンプール"
+          ],
+          "en": [
+            "Kuala Lumpur"
+          ]
+        },
+        "penang": {
+          "zh": [
+            "槟城",
+            "檳城",
+            "乔治市"
+          ],
+          "ja": [
+            "ペナン",
+            "ジョージタウン"
+          ],
+          "en": [
+            "Penang",
+            "George Town"
+          ]
+        },
+        "kotakinabalu": {
+          "zh": [
+            "亚庇",
+            "亞庇",
+            "哥打京那巴鲁"
+          ],
+          "ja": [
+            "コタキナバル"
+          ],
+          "en": [
+            "Kota Kinabalu"
+          ]
+        },
+        "malacca": {
+          "zh": [
+            "马六甲",
+            "馬六甲"
+          ],
+          "ja": [
+            "マラッカ"
+          ],
+          "en": [
+            "Malacca",
+            "Melaka"
+          ]
+        }
+      }
+    },
+    {
+      "key": "indonesia",
+      "zh": [
+        "印度尼西亚",
+        "印尼",
+        "印度尼西亞"
+      ],
+      "ja": [
+        "インドネシア"
+      ],
+      "en": [
+        "Indonesia"
+      ],
+      "cities": {
+        "jakarta": {
+          "zh": [
+            "雅加达",
+            "雅加達"
+          ],
+          "ja": [
+            "ジャカルタ"
+          ],
+          "en": [
+            "Jakarta"
+          ]
+        },
+        "bali": {
+          "zh": [
+            "巴厘岛",
+            "巴里島",
+            "峇里岛"
+          ],
+          "ja": [
+            "バリ島",
+            "バリ"
+          ],
+          "en": [
+            "Bali"
+          ]
+        },
+        "bandung": {
+          "zh": [
+            "万隆",
+            "萬隆"
+          ],
+          "ja": [
+            "バンドン"
+          ],
+          "en": [
+            "Bandung"
+          ]
+        },
+        "surabaya": {
+          "zh": [
+            "泗水"
+          ],
+          "ja": [
+            "スラバヤ"
+          ],
+          "en": [
+            "Surabaya"
+          ]
+        }
+      }
+    },
+    {
+      "key": "philippines",
+      "zh": [
+        "菲律宾",
+        "菲律賓",
+        "菲国"
+      ],
+      "ja": [
+        "フィリピン"
+      ],
+      "en": [
+        "Philippines",
+        "the Philippines"
+      ],
+      "cities": {
+        "manila": {
+          "zh": [
+            "马尼拉",
+            "馬尼拉",
+            "马尼拉市"
+          ],
+          "ja": [
+            "マニラ"
+          ],
+          "en": [
+            "Manila"
+          ]
+        },
+        "cebu": {
+          "zh": [
+            "宿务",
+            "宿務",
+            "宿务市"
+          ],
+          "ja": [
+            "セブ"
+          ],
+          "en": [
+            "Cebu"
+          ]
+        },
+        "davao": {
+          "zh": [
+            "达沃",
+            "達沃"
+          ],
+          "ja": [
+            "ダバオ"
+          ],
+          "en": [
+            "Davao"
+          ]
+        },
+        "boracay": {
+          "zh": [
+            "长滩岛",
+            "長灘島"
+          ],
+          "ja": [
+            "ボラカイ"
+          ],
+          "en": [
+            "Boracay"
+          ]
+        },
+        "bohol": {
+          "zh": [
+            "薄荷岛",
+            "薄荷島"
+          ],
+          "ja": [
+            "ボホール"
+          ],
+          "en": [
+            "Bohol"
+          ]
+        }
+      }
+    },
+    {
+      "key": "india",
+      "zh": [
+        "印度"
+      ],
+      "ja": [
+        "インド"
+      ],
+      "en": [
+        "India"
+      ],
+      "cities": {
+        "mumbai": {
+          "zh": [
+            "孟买",
+            "孟買",
+            "孟买市"
+          ],
+          "ja": [
+            "ムンバイ",
+            "ボンベイ"
+          ],
+          "en": [
+            "Mumbai",
+            "Bombay"
+          ]
+        },
+        "delhi": {
+          "zh": [
+            "德里",
+            "新德里",
+            "新德里市"
+          ],
+          "ja": [
+            "デリー",
+            "ニューデリー"
+          ],
+          "en": [
+            "Delhi",
+            "New Delhi"
+          ]
+        },
+        "bengaluru": {
+          "zh": [
+            "班加罗尔",
+            "班加羅爾"
+          ],
+          "ja": [
+            "ベンガルール"
+          ],
+          "en": [
+            "Bengaluru",
+            "Bangalore"
+          ]
+        },
+        "kolkata": {
+          "zh": [
+            "加尔各答",
+            "加爾各答"
+          ],
+          "ja": [
+            "カルカッタ",
+            "コルカッタ"
+          ],
+          "en": [
+            "Kolkata",
+            "Calcutta"
+          ]
+        },
+        "jaipur": {
+          "zh": [
+            "斋浦尔",
+            "齋浦爾"
+          ],
+          "ja": [
+            "ジャイプール"
+          ],
+          "en": [
+            "Jaipur"
+          ]
+        }
+      }
+    },
+    {
+      "key": "unitedkingdom",
+      "zh": [
+        "英国",
+        "英國",
+        "大不列颠"
+      ],
+      "ja": [
+        "英国",
+        "イギリス"
+      ],
+      "en": [
+        "United Kingdom",
+        "UK",
+        "Britain",
+        "Great Britain"
+      ],
+      "cities": {
+        "london": {
+          "zh": [
+            "伦敦",
+            "倫敦"
+          ],
+          "ja": [
+            "ロンドン"
+          ],
+          "en": [
+            "London"
+          ]
+        },
+        "edinburgh": {
+          "zh": [
+            "爱丁堡",
+            "愛丁堡"
+          ],
+          "ja": [
+            "エディンバラ"
+          ],
+          "en": [
+            "Edinburgh"
+          ]
+        },
+        "manchester": {
+          "zh": [
+            "曼彻斯特",
+            "曼徹斯特"
+          ],
+          "ja": [
+            "マンチェスター"
+          ],
+          "en": [
+            "Manchester"
+          ]
+        },
+        "bath": {
+          "zh": [
+            "巴斯"
+          ],
+          "ja": [
+            "バス"
+          ],
+          "en": [
+            "Bath"
+          ]
+        }
+      }
+    },
+    {
+      "key": "france",
+      "zh": [
+        "法国",
+        "法國"
+      ],
+      "ja": [
+        "フランス"
+      ],
+      "en": [
+        "France"
+      ],
+      "cities": {
+        "paris": {
+          "zh": [
+            "巴黎"
+          ],
+          "ja": [
+            "パリ"
+          ],
+          "en": [
+            "Paris"
+          ]
+        },
+        "nice": {
+          "zh": [
+            "尼斯"
+          ],
+          "ja": [
+            "ニース"
+          ],
+          "en": [
+            "Nice"
+          ]
+        },
+        "lyon": {
+          "zh": [
+            "里昂",
+            "里昂市"
+          ],
+          "ja": [
+            "リヨン"
+          ],
+          "en": [
+            "Lyon"
+          ]
+        },
+        "marseille": {
+          "zh": [
+            "马赛",
+            "馬賽"
+          ],
+          "ja": [
+            "マルセイユ"
+          ],
+          "en": [
+            "Marseille"
+          ]
+        }
+      }
+    },
+    {
+      "key": "germany",
+      "zh": [
+        "德国",
+        "德國"
+      ],
+      "ja": [
+        "ドイツ"
+      ],
+      "en": [
+        "Germany"
+      ],
+      "cities": {
+        "berlin": {
+          "zh": [
+            "柏林"
+          ],
+          "ja": [
+            "ベルリン"
+          ],
+          "en": [
+            "Berlin"
+          ]
+        },
+        "munich": {
+          "zh": [
+            "慕尼黑",
+            "慕尼黑市"
+          ],
+          "ja": [
+            "ミュンヘン"
+          ],
+          "en": [
+            "Munich",
+            "Muenchen"
+          ]
+        },
+        "frankfurt": {
+          "zh": [
+            "法兰克福",
+            "法蘭克福"
+          ],
+          "ja": [
+            "フランクフルト"
+          ],
+          "en": [
+            "Frankfurt"
+          ]
+        },
+        "hamburg": {
+          "zh": [
+            "汉堡",
+            "漢堡"
+          ],
+          "ja": [
+            "ハンブルク"
+          ],
+          "en": [
+            "Hamburg"
+          ]
+        },
+        "cologne": {
+          "zh": [
+            "科隆"
+          ],
+          "ja": [
+            "ケルン"
+          ],
+          "en": [
+            "Cologne",
+            "Koeln"
+          ]
+        }
+      }
+    },
+    {
+      "key": "italy",
+      "zh": [
+        "意大利",
+        "義大利"
+      ],
+      "ja": [
+        "イタリア",
+        "イタリア"
+      ],
+      "en": [
+        "Italy"
+      ],
+      "cities": {
+        "rome": {
+          "zh": [
+            "罗马",
+            "羅馬"
+          ],
+          "ja": [
+            "ローマ"
+          ],
+          "en": [
+            "Rome"
+          ]
+        },
+        "milan": {
+          "zh": [
+            "米兰",
+            "米蘭"
+          ],
+          "ja": [
+            "ミラノ"
+          ],
+          "en": [
+            "Milan",
+            "Milano"
+          ]
+        },
+        "venice": {
+          "zh": [
+            "威尼斯"
+          ],
+          "ja": [
+            "ヴェネツィア"
+          ],
+          "en": [
+            "Venice",
+            "Venezia"
+          ]
+        },
+        "florence": {
+          "zh": [
+            "佛罗伦萨",
+            "佛羅倫薩"
+          ],
+          "ja": [
+            "フィレンツェ"
+          ],
+          "en": [
+            "Florence",
+            "Firenze"
+          ]
+        },
+        "naples": {
+          "zh": [
+            "那不勒斯",
+            "拿坡里"
+          ],
+          "ja": [
+            "ナポリ"
+          ],
+          "en": [
+            "Naples",
+            "Napoli"
+          ]
+        }
+      }
+    },
+    {
+      "key": "mexico",
+      "zh": [
+        "墨西哥"
+      ],
+      "ja": [
+        "メキシコ"
+      ],
+      "en": [
+        "Mexico"
+      ],
+      "cities": {
+        "mexicocity": {
+          "zh": [
+            "墨西哥城"
+          ],
+          "ja": [
+            "メキシコシティ",
+            "メキシコ市"
+          ],
+          "en": [
+            "Mexico City",
+            "Ciudad de Mexico"
+          ]
+        },
+        "cancun": {
+          "zh": [
+            "坎昆",
+            "坎昆市"
+          ],
+          "ja": [],
+          "en": [
+            "Cancun",
+            "Cancun City"
+          ]
+        },
+        "guadalajara": {
+          "zh": [
+            "瓜达拉哈拉",
+            "瓜達拉哈拉"
+          ],
+          "ja": [
+            "グアダラハラ"
+          ],
+          "en": [
+            "Guadalajara"
+          ]
+        },
+        "acapulco": {
+          "zh": [
+            "阿卡普尔科"
+          ],
+          "ja": [
+            "アカプルコ"
+          ],
+          "en": [
+            "Acapulco"
+          ]
+        }
+      }
+    },
+    {
+      "key": "turkey",
+      "zh": [
+        "土耳其"
+      ],
+      "ja": [
+        "トルコ"
+      ],
+      "en": [
+        "Turkey",
+        "Turkiye",
+        "Türkiye"
+      ],
+      "cities": {
+        "istanbul": {
+          "zh": [
+            "伊斯坦布尔",
+            "伊斯坦布爾",
+            "伊斯坦堡"
+          ],
+          "ja": [
+            "イスタンブール"
+          ],
+          "en": [
+            "Istanbul",
+            "Constantinople"
+          ]
+        },
+        "ankara": {
+          "zh": [
+            "安卡拉",
+            "安卡菈"
+          ],
+          "ja": [
+            "アンカラ"
+          ],
+          "en": [
+            "Ankara"
+          ]
+        },
+        "izmir": {
+          "zh": [
+            "伊兹密尔",
+            "伊茲密爾"
+          ],
+          "ja": [
+            "イズミル"
+          ],
+          "en": [
+            "Izmir",
+            "Izmir"
+          ]
+        },
+        "antalya": {
+          "zh": [
+            "安塔利亚",
+            "安塔利亞"
+          ],
+          "ja": [
+            "アンタルヤ"
+          ],
+          "en": [
+            "Antalya"
+          ]
+        }
+      }
+    },
+    {
+      "key": "egypt",
+      "zh": [
+        "埃及"
+      ],
+      "ja": [
+        "エジプト"
+      ],
+      "en": [
+        "Egypt"
+      ],
+      "cities": {
+        "cairo": {
+          "zh": [
+            "开罗",
+            "開羅",
+            "开罗市"
+          ],
+          "ja": [
+            "カイロ"
+          ],
+          "en": [
+            "Cairo"
+          ]
+        },
+        "alexandria": {
+          "zh": [
+            "亚历山大",
+            "亞歷山大"
+          ],
+          "ja": [
+            "アレクサンドリア"
+          ],
+          "en": [
+            "Alexandria"
+          ]
+        },
+        "luxor": {
+          "zh": [
+            "卢克索",
+            "盧克索",
+            "帝王谷"
+          ],
+          "ja": [
+            "ルクソール"
+          ],
+          "en": [
+            "Luxor"
+          ]
+        },
+        "hurghada": {
+          "zh": [
+            "赫尔格达"
+          ],
+          "ja": [
+            "フルガダ"
+          ],
+          "en": [
+            "Hurghada"
+          ]
+        },
+        "sharm": {
+          "zh": [
+            "沙姆沙伊赫"
+          ],
+          "ja": [
+            "シャルム・エル・シェイク"
+          ],
+          "en": [
+            "Sharm el-Sheikh"
+          ]
+        }
+      }
+    },
+    {
+      "key": "brazil",
+      "zh": [
+        "巴西"
+      ],
+      "ja": [
+        "ブラジル"
+      ],
+      "en": [
+        "Brazil"
+      ],
+      "cities": {
+        "saopaulo": {
+          "zh": [
+            "圣保罗",
+            "聖保羅"
+          ],
+          "ja": [
+            "サンパウロ"
+          ],
+          "en": [
+            "Sao Paulo",
+            "São Paulo"
+          ]
+        },
+        "riodejaneiro": {
+          "zh": [
+            "里约热内卢",
+            "里約熱內盧"
+          ],
+          "ja": [
+            "リオ・デジャネイロ"
+          ],
+          "en": [
+            "Rio de Janeiro"
+          ]
+        },
+        "brasilia": {
+          "zh": [
+            "巴西利亚",
+            "巴西利亞"
+          ],
+          "ja": [
+            "ブラジリア"
+          ],
+          "en": [
+            "Brasilia"
+          ]
+        },
+        "salvador": {
+          "zh": [
+            "萨尔瓦多",
+            "薩爾瓦多"
+          ],
+          "ja": [
+            "サルバドール"
+          ],
+          "en": [
+            "Salvador"
+          ]
+        }
+      }
+    }
+  ]
+}

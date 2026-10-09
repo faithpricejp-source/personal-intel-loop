@@ -1,0 +1,38 @@
+[
+ {
+  "ok": true,
+  "item_id": "x",
+  "dim": "overall",
+  "value": 1,
+  "effect": {
+   "kind": "source_trust",
+   "label": "此源信任 0.31→0.36",
+   "before": 0.31,
+   "after": 0.36
+  }
+ },
+ {
+  "ok": true,
+  "item_id": "x",
+  "dim": "author",
+  "value": -1,
+  "effect": {
+   "kind": "author_trust",
+   "label": "此作者 0.55→0.47",
+   "before": 0.55,
+   "after": 0.47
+  }
+ },
+ {
+  "ok": true,
+  "item_id": "x",
+  "dim": "style",
+  "value": 1,
+  "effect": {
+   "kind": "queued",
+   "label": "已记，明早编辑部来信里给出修订提案",
+   "before": null,
+   "after": null
+  }
+ }
+]

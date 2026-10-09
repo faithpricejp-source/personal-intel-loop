@@ -1,0 +1,208 @@
+{
+  "sources": [
+    {
+      "source": "rss_briefing:harbor_review",
+      "label": "Harbor Review",
+      "trust": 0.2,
+      "items_30d": 30,
+      "on_paper_30d": 0,
+      "muted": false,
+      "boosted": true
+    },
+    {
+      "source": "rss_briefing:kaigan_shimbun",
+      "label": "海岸新聞",
+      "trust": 0.28,
+      "items_30d": 41,
+      "on_paper_30d": 2,
+      "muted": false,
+      "boosted": false
+    },
+    {
+      "source": "rss_briefing:dongfang_weekly",
+      "label": "东方周刊",
+      "trust": 0.36,
+      "items_30d": 52,
+      "on_paper_30d": 4,
+      "muted": false,
+      "boosted": false
+    },
+    {
+      "source": "follow_builders:lena_park",
+      "label": "Lena Park",
+      "trust": 0.44,
+      "items_30d": 63,
+      "on_paper_30d": 6,
+      "muted": false,
+      "boosted": false
+    },
+    {
+      "source": "weibo_timeline:北岭老张",
+      "label": "北岭老张",
+      "trust": 0.52,
+      "items_30d": 74,
+      "on_paper_30d": 8,
+      "muted": false,
+      "boosted": false
+    },
+    {
+      "source": "youtube_followed:tidal_lab",
+      "label": "Tidal Lab",
+      "trust": 0.6,
+      "items_30d": 85,
+      "on_paper_30d": 10,
+      "muted": false,
+      "boosted": false
+    },
+    {
+      "source": "aihot:example_ai_blog",
+      "label": "Example AI Blog",
+      "trust": 0.68,
+      "items_30d": 96,
+      "on_paper_30d": 12,
+      "muted": false,
+      "boosted": false
+    },
+    {
+      "source": "rss_briefing:mountain_econ",
+      "label": "山城经济观察",
+      "trust": 0.76,
+      "items_30d": 107,
+      "on_paper_30d": 14,
+      "muted": true,
+      "boosted": false
+    }
+  ],
+  "authors": [
+    {
+      "author_key": "author_0",
+      "label": "作者0号",
+      "trust": 0.3,
+      "n_up": 0,
+      "n_down": 6,
+      "muted": false
+    },
+    {
+      "author_key": "author_1",
+      "label": "作者1号",
+      "trust": 0.37,
+      "n_up": 1,
+      "n_down": 5,
+      "muted": false
+    },
+    {
+      "author_key": "author_2",
+      "label": "作者2号",
+      "trust": 0.44,
+      "n_up": 2,
+      "n_down": 4,
+      "muted": false
+    },
+    {
+      "author_key": "author_3",
+      "label": "作者3号",
+      "trust": 0.51,
+      "n_up": 3,
+      "n_down": 3,
+      "muted": false
+    },
+    {
+      "author_key": "author_4",
+      "label": "作者4号",
+      "trust": 0.58,
+      "n_up": 4,
+      "n_down": 2,
+      "muted": false
+    },
+    {
+      "author_key": "author_5",
+      "label": "作者5号",
+      "trust": 0.65,
+      "n_up": 5,
+      "n_down": 1,
+      "muted": false
+    },
+    {
+      "author_key": "author_6",
+      "label": "作者6号",
+      "trust": 0.72,
+      "n_up": 6,
+      "n_down": 0,
+      "muted": false
+    }
+  ],
+  "recent": [
+    {
+      "ts": "2026-10-04T00:00:00+09:00",
+      "item_id": "x0",
+      "title": "港口吞吐量连续三月下滑，背后是一条被忽视的航线改道",
+      "dim": "overall",
+      "value": 1
+    },
+    {
+      "ts": "2026-10-04T01:00:00+09:00",
+      "item_id": "x1",
+      "title": "一位渔民二十年记录的潮汐数据，修正了地方防灾图",
+      "dim": "quality",
+      "value": -1
+    },
+    {
+      "ts": "2026-10-04T02:00:00+09:00",
+      "item_id": "x2",
+      "title": "为什么小镇银行比大银行更早看到坏账",
+      "dim": "author",
+      "value": 1
+    },
+    {
+      "ts": "2026-10-04T03:00:00+09:00",
+      "item_id": "x3",
+      "title": "虚构岛国的盐税改革：一次制度意外后果",
+      "dim": "style",
+      "value": -1
+    },
+    {
+      "ts": "2026-10-04T04:00:00+09:00",
+      "item_id": "x4",
+      "title": "「我们错估了需求」：一家硬件公司的诚实复盘",
+      "dim": "topic",
+      "value": 1
+    },
+    {
+      "ts": "2026-10-04T05:00:00+09:00",
+      "item_id": "x5",
+      "title": "铜价与海底电缆：一条传导链",
+      "dim": "overall",
+      "value": -1
+    },
+    {
+      "ts": "2026-10-04T06:00:00+09:00",
+      "item_id": "x6",
+      "title": "十年前的三条行业预测，今天对了两条",
+      "dim": "quality",
+      "value": 1
+    },
+    {
+      "ts": "2026-10-04T07:00:00+09:00",
+      "item_id": "x7",
+      "title": "研究者用旧报纸重建百年降雨序列",
+      "dim": "author",
+      "value": -1
+    },
+    {
+      "ts": "2026-10-04T08:00:00+09:00",
+      "item_id": "x8",
+      "title": "某虚构城市的地铁票价实验",
+      "dim": "style",
+      "value": 1
+    },
+    {
+      "ts": "2026-10-04T09:00:00+09:00",
+      "item_id": "x9",
+      "title": "退休教师匿名资助四十名学生，三十年后的回信",
+      "dim": "topic",
+      "value": -1
+    }
+  ],
+  "profile_dir": "/path/to/profile",
+  "health": []
+}

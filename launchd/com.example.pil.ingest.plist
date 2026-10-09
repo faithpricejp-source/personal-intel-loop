@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- 示例 plist：把 __PROJECT_ROOT__ / __PIL_HOME__ 换成你的绝对路径，按需改 Label 前缀，再复制到 ~/Library/LaunchAgents/。 -->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.example.pil.ingest</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>__PROJECT_ROOT__/.venv/bin/pil</string>
+        <string>ingest-first-ring</string>
+        <string>--adapter</string>
+        <string>rss_briefing</string>
+        <string>--adapter</string>
+        <string>html_columns</string>
+        <string>--adapter</string>
+        <string>mofa_anzen</string>
+        <string>--adapter</string>
+        <string>who_don</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>__PROJECT_ROOT__</string>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>StandardOutPath</key>
+    <string>__PIL_HOME__/logs/launchd_ingest.out</string>
+    <key>StandardErrorPath</key>
+    <string>__PIL_HOME__/logs/launchd_ingest.err</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>__PROJECT_ROOT__/.venv/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>PIL_HOME</key>
+        <string>__PIL_HOME__</string>
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
+    </dict>
+</dict>
+</plist>
