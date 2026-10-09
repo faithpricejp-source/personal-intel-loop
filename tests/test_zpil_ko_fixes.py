@@ -18,7 +18,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 MAIN_SWIFT = PROJECT_ROOT / "macapp" / "main.swift"
 
 swiftc = pytest.mark.skipif(
-    shutil.which("swiftc") is None, reason="本机无 swiftc，无法编译 macapp 真代码"
+    platform.system() != "Darwin" or shutil.which("swiftc") is None,
+    reason="需要 macOS + swiftc 编译 macapp 真代码(AppKit; Linux 上的 swiftc 不行)",
 )
 
 
@@ -553,6 +554,7 @@ def test_o7_cn_consular_detail_without_article_title_keeps_list_title(tmp_path):
     assert records[0].item.title == "赴丙国安全提醒"
 
 
+@pytest.mark.skipif(hasattr(os, "geteuid") and os.geteuid() == 0, reason="root 无视文件权限位, chmod 造不出读/写失败")
 def test_o8_local_transcripts_unreadable_file_skipped_not_fatal(tmp_path):
     """O-8：文件扫描后被删/被锁（OSError）只跳过该文件，不许挂掉整轮 collect。"""
     import os
@@ -579,6 +581,7 @@ def test_o8_local_transcripts_unreadable_file_skipped_not_fatal(tmp_path):
     assert titles == ["好标题"]
 
 
+@pytest.mark.skipif(hasattr(os, "geteuid") and os.geteuid() == 0, reason="root 无视文件权限位, chmod 造不出读/写失败")
 def test_o9_podcast_new_unreadable_file_skipped_not_fatal(tmp_path):
     """O-9：podcast_new 的 read_text 同样只捕 UnicodeDecodeError，坏文件不许挂掉整轮。"""
     import os

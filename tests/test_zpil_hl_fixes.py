@@ -1,6 +1,10 @@
 """Kimi 只读审查发现的复核与回归测试（每条直接调用真文件里的真函数）。"""
 from __future__ import annotations
 
+import os
+
+import pytest
+
 from personal_intel_loop.paper_api import get_archive, notifications
 from personal_intel_loop.store import upsert_item
 from tests.conftest import make_item
@@ -90,6 +94,7 @@ def test_today_urgent_related_escapes_like_wildcards(db_conn):
     assert hits == ["大阪の警報"], f"正常地名词面匹配必须保留，实际 {hits}"
 
 
+@pytest.mark.skipif(hasattr(os, "geteuid") and os.geteuid() == 0, reason="root 无视文件权限位, chmod 造不出读/写失败")
 def test_learn_proposal_write_failure_no_partial_adjustments(tmp_path):
     """画像提案写失败时不得留下已提交的旋钮调整（半成品）。
 
