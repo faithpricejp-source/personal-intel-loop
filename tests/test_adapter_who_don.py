@@ -106,8 +106,14 @@ def test_collect_sorted_newest_first(tmp_path):
     assert [r.item.ts for r in recs] == sorted((r.item.ts for r in recs), reverse=True)
 
 
-def test_collect_time_window(tmp_path):
+def test_collect_time_window(tmp_path, monkeypatch):
     """默认 14 天窗口(实测日 2026-10-05): 只有 09-25 那条在窗内, 08/14 两条掉出去。"""
+    class FixtureDateTime(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return datetime(2026, 10, 5, tzinfo=timezone.utc).astimezone(tz)
+
+    monkeypatch.setattr(wd, "datetime", FixtureDateTime)
     recs = list(_adapter(tmp_path, fetch_api=lambda s: _dump(RAW)).collect())
     assert [r.item.url.rsplit("/", 1)[-1] for r in recs] == ["2026-DON618"]
     # 阳性对照: 同一份数据放宽到 3650 天就有 5 条(换 state 文件, 否则被上一轮去重掉)
